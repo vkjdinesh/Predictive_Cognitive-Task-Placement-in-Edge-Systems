@@ -13,14 +13,6 @@ Core design principles:
                              included in the next negotiation round
   5. NO GLOBAL LLM -- originator does pure arithmetic; all intelligence
                       lives inside each node's local LLM
-
-Load-balanced score:
-  adj = raw - 0.05 * max(0, my_assignments - avg_assignments)
-      + 0.03 if my_assignments == 0  (new/idle node bonus)
-
-Deferred task retry:
-  Failed tasks go into _retry_queue and are attempted BEFORE new tasks.
-  MAX_RETRIES per task before it is permanently dropped.
 """
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
