@@ -1,4 +1,4 @@
-# EdgeMIND Deployment Guide
+#Deployment Guide
 
 ## How to Run the System
 
