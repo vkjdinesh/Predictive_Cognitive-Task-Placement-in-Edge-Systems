@@ -1,0 +1,1332 @@
+(myenv) node1@node1:~/Desktop/lstm_llm/final_test_predictive$ python3 source1.py
+/home/node1/Desktop/lstm_llm/final_test_predictive/source1.py:179: SyntaxWarning: invalid escape sequence '\K'
+  '''
+⏳ Waiting 30 seconds for all nodes to start...
+
+==============================================================================================================
+🔄 CYCLE #1 | TRIAL 1 | 12:24:02
+==============================================================================================================
+💻 Source CPU: 1.9%
+📡 Received 12 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.697 CPU=0.0% MEM=20.0% DISK=82.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.697 CPU=0.0% MEM=20.0% DISK=82.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.697 CPU=0.0% MEM=20.0% DISK=82.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.607 CPU=0.0% MEM=62.7% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.607 CPU=0.0% MEM=62.7% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.607 CPU=0.0% MEM=62.7% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.691 CPU=0.0% MEM=23.5% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.691 CPU=0.0% MEM=23.5% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.691 CPU=0.0% MEM=23.5% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.647 CPU=0.0% MEM=50.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.647 CPU=0.0% MEM=50.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.647 CPU=0.0% MEM=50.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine3-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.135:8680/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792647685_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 3.29 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #2 | TRIAL 2 | 12:24:17
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 Received 12 unique node responses:
+  machine3-N3 (192.168.1.135) | SCORE=0.688 CPU=2.4% MEM=20.0% DISK=82.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.688 CPU=2.4% MEM=20.0% DISK=82.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.668 CPU=2.4% MEM=20.0% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.643 CPU=1.4% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.643 CPU=1.4% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.643 CPU=1.4% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.603 CPU=1.3% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.603 CPU=1.3% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.3% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.691 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.691 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.691 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine4-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:8980/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792663086_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 115.88 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #3 | TRIAL 3 | 12:24:33
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 Received 12 unique node responses:
+  machine3-N3 (192.168.1.135) | SCORE=0.696 CPU=0.3% MEM=20.0% DISK=82.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.696 CPU=0.3% MEM=20.0% DISK=82.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.675 CPU=0.3% MEM=20.0% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.584 CPU=6.6% MEM=62.9% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.584 CPU=6.6% MEM=62.9% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.584 CPU=6.6% MEM=62.9% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.664 CPU=2.2% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.684 CPU=2.2% MEM=23.5% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.684 CPU=2.2% MEM=23.5% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.640 CPU=2.0% MEM=50.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.640 CPU=2.0% MEM=50.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.640 CPU=2.0% MEM=50.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine3-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.135:8880/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792678404_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 2.52 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #4 | TRIAL 4 | 12:24:48
+==============================================================================================================
+💻 Source CPU: 1.2%
+📡 Received 12 unique node responses:
+  machine3-N2 (192.168.1.135) | SCORE=0.688 CPU=2.5% MEM=20.0% DISK=82.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.668 CPU=2.5% MEM=20.0% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.668 CPU=2.5% MEM=20.0% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.642 CPU=1.5% MEM=50.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.642 CPU=1.5% MEM=50.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.642 CPU=1.5% MEM=50.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.603 CPU=1.4% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.603 CPU=1.4% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.4% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.671 CPU=0.2% MEM=23.4% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.691 CPU=0.2% MEM=23.4% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.691 CPU=0.2% MEM=23.4% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine4-N2
+🎯 ASSIGNED: {'task': 'TIMESERIES',  "n_steps": 1000}
+🔗 Target: http://192.168.1.137:9080/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792693705_2', 'task_type': 'TIMESERIES'}
+⏱️  Latency: 7.98 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #5 | TRIAL 5 | 12:25:03
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 Received 12 unique node responses:
+  machine3-N2 (192.168.1.135) | SCORE=0.695 CPU=0.5% MEM=20.0% DISK=82.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.674 CPU=0.5% MEM=20.0% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.674 CPU=0.5% MEM=20.0% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.664 CPU=2.2% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.664 CPU=2.2% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.684 CPU=2.2% MEM=23.5% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.603 CPU=1.3% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.603 CPU=1.3% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.3% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.643 CPU=1.3% MEM=50.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.643 CPU=1.3% MEM=50.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.643 CPU=1.3% MEM=50.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine3-N2
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.135:8780/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792709022_2', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 2.78 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #6 | TRIAL 6 | 12:25:19
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 12 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.669 CPU=2.1% MEM=20.1% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.669 CPU=2.1% MEM=20.1% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.669 CPU=2.1% MEM=20.1% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.642 CPU=1.5% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.642 CPU=1.5% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.642 CPU=1.5% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.670 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.670 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.691 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine4-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:9180/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792724330_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 10.85 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #7 | TRIAL 7 | 12:25:34
+==============================================================================================================
+💻 Source CPU: 2.2%
+📡 Received 11 unique node responses:
+  machine3-N2 (192.168.1.135) | SCORE=0.673 CPU=0.9% MEM=20.1% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.673 CPU=0.9% MEM=20.1% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.673 CPU=0.9% MEM=20.1% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.665 CPU=2.0% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.665 CPU=2.0% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.665 CPU=2.0% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.643 CPU=1.4% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.643 CPU=1.4% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.643 CPU=1.4% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine3-N2
+🎯 ASSIGNED: {'task': 'TIMESERIES', "n_steps": 1000}
+🔗 Target: http://192.168.1.135:8780/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792739638_2', 'task_type': 'TIMESERIES'}
+⏱️  Latency: 2.28 ms
+
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #8 | TRIAL 8 | 12:25:49
+==============================================================================================================
+💻 Source CPU: 1.2%
+📡 Received 12 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.663 CPU=4.1% MEM=20.1% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.598 CPU=4.1% MEM=20.1% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.663 CPU=4.1% MEM=20.1% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.643 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.643 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.643 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.670 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.670 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.670 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine4-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:8980/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792755053_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 113.12 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #9 | TRIAL 9 | 12:26:05
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 Received 12 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.674 CPU=0.6% MEM=20.2% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.607 CPU=0.6% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.674 CPU=0.6% MEM=20.2% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.665 CPU=2.0% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.598 CPU=2.0% MEM=23.5% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.665 CPU=2.0% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.642 CPU=1.5% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.642 CPU=1.5% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.642 CPU=1.5% MEM=50.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine3-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.135:8680/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792770358_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 2.03 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #10 | TRIAL 10 | 12:26:20
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 Received 12 unique node responses:
+  machine3-N3 (192.168.1.135) | SCORE=0.668 CPU=2.3% MEM=20.2% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.602 CPU=2.3% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.602 CPU=2.3% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.636 CPU=3.6% MEM=49.8% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.636 CPU=3.6% MEM=49.8% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.636 CPU=3.6% MEM=49.8% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.604 CPU=1.0% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.604 CPU=1.0% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.604 CPU=1.0% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.603 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.670 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.670 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine4-N2
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:9080/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792785776_2', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 112.13 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #11 | TRIAL 11 | 12:26:35
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 Received 12 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.608 CPU=0.3% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.674 CPU=0.3% MEM=20.2% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.608 CPU=0.3% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.597 CPU=2.1% MEM=23.5% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.599 CPU=2.1% MEM=23.5% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.664 CPU=2.1% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.644 CPU=1.4% MEM=49.8% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.644 CPU=1.4% MEM=49.8% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.644 CPU=1.4% MEM=49.8% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine3-N3
+🎯 ASSIGNED: {'task': 'TIMESERIES', "n_steps": 1000}
+🔗 Target: http://192.168.1.135:8880/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792801078_3', 'task_type': 'TIMESERIES'}
+⏱️  Latency: 2.12 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #12 | TRIAL 12 | 12:26:51
+==============================================================================================================
+💻 Source CPU: 1.6%
+📡 Received 11 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.602 CPU=2.6% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.602 CPU=2.6% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.601 CPU=2.6% MEM=20.2% DISK=82.3% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.643 CPU=1.5% MEM=49.9% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.643 CPU=1.5% MEM=49.9% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.643 CPU=1.5% MEM=49.9% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.603 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.604 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.670 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine4-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:9180/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792816500_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 114.36 ms
+---------------------------
+==============================================================================================================
+🔄 CYCLE #13 | TRIAL 13 | 12:27:06
+==============================================================================================================
+💻 Source CPU: 1.6%
+📡 Received 12 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.604 CPU=1.7% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.604 CPU=1.7% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.604 CPU=1.7% MEM=20.2% DISK=82.3% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.598 CPU=2.0% MEM=23.5% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.599 CPU=2.0% MEM=23.5% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.599 CPU=2.0% MEM=23.5% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.644 CPU=1.4% MEM=49.9% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.644 CPU=1.4% MEM=49.9% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.644 CPU=1.4% MEM=49.9% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.127:8280/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792836392_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 13.78 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #14 | TRIAL 14 | 12:27:21
+==============================================================================================================
+💻 Source CPU: 4.1%
+📡 Received 12 unique node responses:
+  machine3-N3 (192.168.1.135) | SCORE=0.605 CPU=1.3% MEM=20.2% DISK=82.3% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.605 CPU=1.3% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.605 CPU=1.3% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.620 CPU=8.2% MEM=50.1% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.620 CPU=8.2% MEM=50.1% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.544 CPU=8.2% MEM=50.1% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.603 CPU=1.3% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.603 CPU=1.3% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.603 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.604 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.604 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.3% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', ,n_steps' : 1000}
+🔗 Target: http://192.168.1.127:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792851674_1', 'task_type': 'TIMESERIES'}
+⏱️  Latency: 8.95 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #15 | TRIAL 15 | 12:27:37
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 12 unique node responses:
+  machine3-N3 (192.168.1.135) | SCORE=0.607 CPU=0.4% MEM=20.2% DISK=82.3% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.608 CPU=0.4% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.608 CPU=0.4% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.602 CPU=0.3% MEM=23.5% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.604 CPU=0.3% MEM=23.5% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.604 CPU=0.3% MEM=23.5% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.544 CPU=8.0% MEM=50.4% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.620 CPU=8.0% MEM=50.4% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.544 CPU=8.0% MEM=50.4% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine1-N2
+🎯 ASSIGNED: {'task': 'CLASSIFICATION ', 'n_samples' : 150}
+🔗 Target: http://192.168.1.127:8180/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792867007_2', 'task_type': 'CLASSIFICATION'}
+⏱️  Latency: 12.42 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #16 | TRIAL 16 | 12:27:52
+==============================================================================================================
+💻 Source CPU: 1.6%
+📡 Received 12 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.608 CPU=0.5% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.607 CPU=0.5% MEM=20.2% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.607 CPU=0.5% MEM=20.2% DISK=82.3% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.543 CPU=8.0% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.543 CPU=8.0% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.543 CPU=8.0% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.603 CPU=1.3% MEM=62.7% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.603 CPU=1.3% MEM=62.7% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.3% MEM=62.7% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.603 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.604 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.604 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+
+🏆 SELECTED: machine3-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.135:8680/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792877706_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 1.93 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #17 | TRIAL 17 | 12:28:07
+==============================================================================================================
+💻 Source CPU: 7.5%
+📡 Received 12 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.523 CPU=5.1% MEM=21.2% DISK=82.4% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.592 CPU=5.1% MEM=21.2% DISK=82.4% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.593 CPU=5.1% MEM=21.2% DISK=82.4% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.603 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.604 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.604 CPU=0.2% MEM=23.5% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.565 CPU=1.1% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.565 CPU=1.1% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.565 CPU=1.1% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine4-N2
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:9080/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792893100_2', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 42.98 ms
+--------------------------------------------------------------------------
+==============================================================================================================
+🔄 CYCLE #18 | TRIAL 18 | 12:28:23
+==============================================================================================================
+💻 Source CPU: 2.2%
+📡 Received 12 unique node responses:
+  machine3-N3 (192.168.1.135) | SCORE=0.605 CPU=1.0% MEM=20.3% DISK=82.3% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.606 CPU=1.0% MEM=20.3% DISK=82.3% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.534 CPU=1.0% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.597 CPU=2.1% MEM=23.9% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.529 CPU=2.1% MEM=23.9% DISK=81.1% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.598 CPU=2.1% MEM=23.9% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.565 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.565 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.565 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine3-N2
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'n_steps': 1000}
+🔗 Target: http://192.168.1.135:8780/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792908392_2', 'task_type': 'TIMESERIES'}
+⏱️  Latency: 1.92 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #19 | TRIAL 19 | 12:28:38
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 12 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.530 CPU=2.8% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.531 CPU=2.8% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.600 CPU=2.8% MEM=20.2% DISK=82.3% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.565 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.565 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.565 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.5% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.602 CPU=0.3% MEM=23.8% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.534 CPU=0.3% MEM=23.8% DISK=81.1% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.603 CPU=0.3% MEM=23.8% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+
+🏆 SELECTED: machine2-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'n_samples': 150}
+🔗 Target: http://192.168.1.108:8380/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792923790_1', 'task_type': 'CLASSIFICATION'}
+⏱️  Latency: 120.08 ms
+---------------------------------------------
+=============================================================================================================
+🔄 CYCLE #20 | TRIAL 20 | 12:28:53
+==============================================================================================================
+💻 Source CPU: 1.9%
+📡 Received 12 unique node responses:
+  machine3-N3 (192.168.1.135) | SCORE=0.605 CPU=1.1% MEM=20.2% DISK=82.3% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.534 CPU=1.1% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.535 CPU=1.1% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.586 CPU=3.1% MEM=62.7% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.596 CPU=3.1% MEM=62.7% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.596 CPU=3.1% MEM=62.7% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.602 CPU=0.3% MEM=23.9% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.534 CPU=0.3% MEM=23.9% DISK=81.1% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.603 CPU=0.3% MEM=23.9% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.565 CPU=1.2% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.565 CPU=1.2% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.565 CPU=1.2% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine3-N3
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'n_steps': 1000}
+🔗 Target: http://192.168.1.135:8880/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792939113_3', 'task_type': 'TIMESERIES'}
+⏱️  Latency: 1.75 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #21 | TRIAL 21 | 12:29:09
+==============================================================================================================
+💻 Source CPU: 1.2%
+📡 Received 12 unique node responses:
+  machine3-N2 (192.168.1.135) | SCORE=0.530 CPU=3.2% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.530 CPU=3.2% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.529 CPU=3.2% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.565 CPU=1.1% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.565 CPU=1.1% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.565 CPU=1.1% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.603 CPU=1.1% MEM=62.7% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.592 CPU=1.1% MEM=62.7% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.1% MEM=62.7% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.534 CPU=0.2% MEM=23.9% DISK=81.1% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.602 CPU=0.2% MEM=23.9% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.604 CPU=0.2% MEM=23.9% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+
+🏆 SELECTED: machine4-N3
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'n_samples': 150}
+🔗 Target: http://192.168.1.137:9180/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792954546_3', 'task_type': 'CLASSIFICATION'}
+⏱️  Latency: 116.35 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #22 | TRIAL 22 | 12:29:24
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 Received 11 unique node responses:
+  machine3-N3 (192.168.1.135) | SCORE=0.537 CPU=0.3% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.537 CPU=0.3% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.536 CPU=0.3% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.592 CPU=1.1% MEM=62.6% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.604 CPU=1.1% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.597 CPU=2.1% MEM=23.9% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.529 CPU=2.1% MEM=23.9% DISK=81.1% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.529 CPU=2.1% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.565 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.565 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine2-N2
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'n_steps': 1000}
+🔗 Target: http://192.168.1.108:8480/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792969873_2', 'task_type': 'TIMESERIES'}
+⏱️  Latency: 51.42 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #23 | TRIAL 23 | 12:29:39
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 Received 12 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.536 CPU=0.4% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.537 CPU=0.4% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.537 CPU=0.4% MEM=20.2% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.586 CPU=3.0% MEM=62.7% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.586 CPU=3.0% MEM=62.7% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.597 CPU=3.0% MEM=62.7% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.534 CPU=0.3% MEM=23.9% DISK=81.1% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.602 CPU=0.3% MEM=23.9% DISK=81.1% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.533 CPU=0.3% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.565 CPU=1.1% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.565 CPU=1.1% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.565 CPU=1.2% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine4-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'n_samples': 150}
+🔗 Target: http://192.168.1.137:8980/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772792985268_1', 'task_type': 'CLASSIFICATION'}
+⏱️  Latency: 43.50 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #24 | TRIAL 24 | 12:29:55
+==============================================================================================================
+💻 Source CPU: 1.9%
+📡 Received 9 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.536 CPU=0.4% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.537 CPU=0.4% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.537 CPU=0.4% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.528 CPU=2.1% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.98 TASKS=3 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.529 CPU=2.1% MEM=23.9% DISK=81.1% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.529 CPU=2.1% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.565 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.565 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.565 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.127:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793005151_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 12.00 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #25 | TRIAL 25 | 12:30:10
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 9 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.535 CPU=0.6% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.537 CPU=0.6% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.537 CPU=0.6% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.546 CPU=7.2% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.546 CPU=7.2% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.505 CPU=7.2% MEM=50.5% DISK=74.3% REPUT=0.62 REL=0.44 TASKS=2 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.592 CPU=1.2% MEM=62.6% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.592 CPU=1.2% MEM=62.6% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.603 CPU=1.2% MEM=62.6% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine2-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.108:8580/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793015955_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 122.01 ms
+--------------------------
+==============================================================================================================
+🔄 CYCLE #26 | TRIAL 26 | 12:30:25
+==============================================================================================================
+💻 Source CPU: 1.2%
+📡 Received 11 unique node responses:
+  machine3-N3 (192.168.1.135) | SCORE=0.533 CPU=2.1% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.533 CPU=2.1% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.532 CPU=2.1% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.534 CPU=0.2% MEM=23.9% DISK=81.1% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.533 CPU=0.2% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.98 TASKS=3 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.534 CPU=0.2% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.583 CPU=3.9% MEM=62.7% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.583 CPU=3.9% MEM=62.7% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.522 CPU=1.1% MEM=50.5% DISK=74.3% REPUT=0.62 REL=0.44 TASKS=2 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.565 CPU=1.1% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.565 CPU=1.1% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine2-N2
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.108:8480/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793031316_2', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 51.99 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #27 | TRIAL 27 | 12:30:41
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 Received 11 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.535 CPU=0.7% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.536 CPU=0.7% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.536 CPU=0.7% MEM=20.3% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.532 CPU=0.3% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.98 TASKS=3 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.534 CPU=0.3% MEM=23.9% DISK=81.1% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.533 CPU=0.3% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.527 CPU=3.3% MEM=62.8% DISK=84.9% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.585 CPU=3.3% MEM=62.8% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.564 CPU=1.4% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.564 CPU=1.4% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.521 CPU=1.4% MEM=50.5% DISK=74.3% REPUT=0.62 REL=0.44 TASKS=2 | 🟢 FREE
+
+🏆 SELECTED: machine2-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.108:8580/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793046678_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 61.56 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #28 | TRIAL 28 | 12:30:56
+==============================================================================================================
+💻 Source CPU: 3.4%
+📡 Received 11 unique node responses:
+  machine3-N3 (192.168.1.135) | SCORE=0.537 CPU=0.5% MEM=20.5% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.535 CPU=0.5% MEM=20.5% DISK=82.3% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.536 CPU=0.5% MEM=20.5% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.583 CPU=3.8% MEM=63.0% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.524 CPU=4.1% MEM=63.0% DISK=84.9% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.526 CPU=4.1% MEM=63.0% DISK=84.9% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.534 CPU=0.2% MEM=23.9% DISK=81.1% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.533 CPU=0.2% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.98 TASKS=3 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.534 CPU=0.2% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.564 CPU=1.4% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.564 CPU=1.4% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine2-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.108:8380/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793062037_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 61.57 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #29 | TRIAL 29 | 12:31:12
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 11 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.535 CPU=0.4% MEM=20.6% DISK=82.3% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.537 CPU=0.4% MEM=20.6% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.537 CPU=0.4% MEM=20.6% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.528 CPU=3.1% MEM=63.0% DISK=84.9% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.527 CPU=3.1% MEM=63.0% DISK=84.9% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.528 CPU=3.1% MEM=63.0% DISK=84.9% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.534 CPU=0.3% MEM=23.9% DISK=81.1% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.532 CPU=0.3% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.98 TASKS=3 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.533 CPU=0.3% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.565 CPU=1.2% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.522 CPU=1.3% MEM=50.5% DISK=74.3% REPUT=0.62 REL=0.44 TASKS=2 | 🟢 FREE
+
+🏆 SELECTED: machine1-N2
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.127:8180/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793081964_2', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 23.24 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #30 | TRIAL 30 | 12:31:27
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 Received 12 unique node responses:
+  machine1-N3 (192.168.1.127) | SCORE=0.555 CPU=4.2% MEM=50.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.493 CPU=7.2% MEM=50.5% DISK=74.3% REPUT=0.62 REL=0.29 TASKS=2 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.505 CPU=7.2% MEM=50.5% DISK=74.3% REPUT=0.62 REL=0.44 TASKS=2 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.534 CPU=1.1% MEM=63.0% DISK=84.9% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.533 CPU=1.1% MEM=63.0% DISK=84.9% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.534 CPU=1.1% MEM=63.0% DISK=84.9% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.534 CPU=0.2% MEM=23.9% DISK=81.1% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.533 CPU=0.2% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.98 TASKS=3 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.534 CPU=0.2% MEM=23.9% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.540 CPU=1.9% MEM=19.2% DISK=77.9% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.538 CPU=1.9% MEM=19.2% DISK=77.9% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.540 CPU=1.9% MEM=19.2% DISK=77.9% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.127:8280/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793097413_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 17.92 ms
+------------------------------
+==============================================================================================================
+🔄 CYCLE #31 | TRIAL 31 | 12:31:42
+==============================================================================================================
+💻 Source CPU: 3.1%
+📡 Received 12 unique node responses:
+  machine3-N3 (192.168.1.135) | SCORE=0.539 CPU=2.2% MEM=19.3% DISK=77.9% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.539 CPU=2.2% MEM=19.3% DISK=77.9% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.537 CPU=2.2% MEM=19.3% DISK=77.9% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.533 CPU=1.3% MEM=62.9% DISK=84.9% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.534 CPU=1.9% MEM=23.2% DISK=77.9% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.533 CPU=1.9% MEM=23.2% DISK=77.9% REPUT=0.67 REL=0.98 TASKS=3 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.539 CPU=3.2% MEM=60.5% DISK=78.4% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.540 CPU=3.2% MEM=60.5% DISK=78.4% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.534 CPU=1.9% MEM=23.2% DISK=77.9% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.497 CPU=7.1% MEM=53.1% DISK=77.5% REPUT=0.62 REL=0.44 TASKS=2 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.485 CPU=7.0% MEM=53.1% DISK=77.5% REPUT=0.62 REL=0.29 TASKS=2 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.487 CPU=6.6% MEM=53.1% DISK=77.5% REPUT=0.62 REL=0.29 TASKS=2 | 🟢 FREE
+
+🏆 SELECTED: machine2-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.108:8580/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793108938_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 64.32 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #32 | TRIAL 32 | 12:31:58
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 Received 12 unique node responses:
+  machine2-N1 (192.168.1.108) | SCORE=0.526 CPU=3.9% MEM=63.2% DISK=84.9% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine3-N1 (192.168.1.135) | SCORE=0.537 CPU=2.3% MEM=19.3% DISK=77.9% REPUT=0.67 REL=0.97 TASKS=3 | 🟢 FREE
+  machine3-N3 (192.168.1.135) | SCORE=0.538 CPU=2.3% MEM=19.3% DISK=77.9% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine3-N2 (192.168.1.135) | SCORE=0.538 CPU=2.3% MEM=19.3% DISK=77.9% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.533 CPU=1.9% MEM=23.2% DISK=77.9% REPUT=0.67 REL=0.98 TASKS=3 | 🟢 FREE
+  machine4-N2 (192.168.1.137) | SCORE=0.534 CPU=1.9% MEM=23.2% DISK=77.9% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine4-N3 (192.168.1.137) | SCORE=0.534 CPU=1.9% MEM=23.2% DISK=77.9% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine2-N2 (192.168.1.108) | SCORE=0.536 CPU=4.1% MEM=60.7% DISK=78.4% REPUT=0.62 REL=0.98 TASKS=2 | 🟢 FREE
+  machine2-N3 (192.168.1.108) | SCORE=0.476 CPU=4.1% MEM=60.7% DISK=78.4% REPUT=0.67 REL=1.00 TASKS=3 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.486 CPU=6.6% MEM=53.3% DISK=77.5% REPUT=0.62 REL=0.29 TASKS=2 | 🟢 FREE
+  machine1-N2 (192.168.1.127) | SCORE=0.486 CPU=6.8% MEM=53.3% DISK=77.5% REPUT=0.62 REL=0.29 TASKS=2 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.498 CPU=6.8% MEM=53.3% DISK=77.5% REPUT=0.62 REL=0.44 TASKS=2 | 🟢 FREE
+
+🏆 SELECTED: machine3-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.135:8880/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793124355_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 2.13 ms
+----------------------------------------------------------------------------------
+
+4 Machines 
+node1@node1:~/Desktop/lstm_llm/final_test_predictive$ python3 source1.py
+/home/node1/Desktop/lstm_llm/final_test_predictive/source1.py:179: SyntaxWarning: invalid escape sequence '\K'
+  '''
+⏳ Waiting 30 seconds for all nodes to start...
+
+==============================================================================================================
+🔄 CYCLE #1 | TRIAL 1 | 12:34:28
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.704 CPU=0.2% MEM=16.3% DISK=82.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.699 CPU=0.0% MEM=19.9% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.623 CPU=0.0% MEM=54.9% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.659 CPU=0.0% MEM=44.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine3-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'n_steps': 150}
+🔗 Target: http://192.168.1.135:8680/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793274164_1', 'task_type': 'TIMESERIES'}
+⏱️  Latency: 3.15 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #2 | TRIAL 2 | 12:34:44
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.676 CPU=2.1% MEM=16.3% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.653 CPU=1.9% MEM=44.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.697 CPU=0.3% MEM=20.0% DISK=81.1% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.619 CPU=1.1% MEM=54.8% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine4-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:8980/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793289615_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 114.06 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #3 | TRIAL 3 | 12:34:59
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.681 CPU=0.3% MEM=16.3% DISK=82.3% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.671 CPU=2.0% MEM=20.0% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.619 CPU=1.1% MEM=54.9% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.652 CPU=2.0% MEM=44.6% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine3-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.135:8680/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793304884_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 2.01 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #4 | TRIAL 4 | 12:35:14
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.606 CPU=2.8% MEM=16.3% DISK=82.3% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.646 CPU=3.2% MEM=45.5% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.619 CPU=1.2% MEM=54.8% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.677 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine4-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'n_steps': 1000}
+🔗 Target: http://192.168.1.137:8980/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793320242_1', 'task_type': 'TIMESERIES'}
+⏱️  Latency: 18.62 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #5 | TRIAL 5 | 12:35:30
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.613 CPU=0.3% MEM=16.4% DISK=82.3% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.619 CPU=1.2% MEM=54.8% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.605 CPU=2.1% MEM=19.9% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.653 CPU=1.4% MEM=45.4% DISK=74.3% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.127:8280/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793340101_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 23.80 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #6 | TRIAL 6 | 12:35:45
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.613 CPU=0.3% MEM=16.4% DISK=82.3% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.554 CPU=7.5% MEM=45.5% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.619 CPU=1.1% MEM=54.8% DISK=84.9% REPUT=0.50 REL=0.60 TASKS=0 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.610 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+
+🏆 SELECTED: machine2-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.108:8380/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793350915_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 122.06 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #7 | TRIAL 7 | 12:36:00
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.613 CPU=0.3% MEM=16.4% DISK=82.3% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.599 CPU=3.2% MEM=54.9% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.610 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.573 CPU=1.8% MEM=44.8% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine3-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'n_steps': 1000}
+🔗 Target: http://192.168.1.135:8680/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793366221_1', 'task_type': 'TIMESERIES'}
+⏱️  Latency: 1.84 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #8 | TRIAL 8 | 12:36:16
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.538 CPU=2.2% MEM=16.4% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.569 CPU=2.9% MEM=45.1% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.606 CPU=1.0% MEM=54.8% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.610 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.62 REL=1.00 TASKS=2 | 🟢 FREE
+
+🏆 SELECTED: machine4-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:8980/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793381675_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 113.75 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #9 | TRIAL 9 | 12:36:31
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.542 CPU=0.6% MEM=16.4% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.606 CPU=1.1% MEM=54.8% DISK=84.9% REPUT=0.57 REL=1.00 TASKS=1 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.535 CPU=2.1% MEM=20.0% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.575 CPU=1.1% MEM=45.1% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine2-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.108:8380/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793396995_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 50.24 ms
+-----------------------------------------------
+==============================================================================================================
+🔄 CYCLE #10 | TRIAL 10 | 12:36:46
+==============================================================================================================
+💻 Source CPU: 1.3%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.539 CPU=1.7% MEM=16.4% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.540 CPU=3.3% MEM=54.9% DISK=84.9% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.539 CPU=0.3% MEM=20.0% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.574 CPU=1.5% MEM=45.1% DISK=74.3% REPUT=0.57 REL=0.30 TASKS=1 | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.127:8280/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793416897_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 8.13 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #11 | TRIAL 11 | 12:37:02
+==============================================================================================================
+💻 Source CPU: 2.2%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.541 CPU=0.9% MEM=16.4% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.513 CPU=7.4% MEM=45.1% DISK=74.3% REPUT=0.62 REL=0.44 TASKS=2 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.546 CPU=1.2% MEM=54.9% DISK=84.9% REPUT=0.62 REL=0.99 TASKS=2 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.539 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+
+🏆 SELECTED: machine2-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'n_steps': 1000}
+🔗 Target: http://192.168.1.108:8380/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793427715_1', 'task_type': 'TIMESERIES'}
+⏱️  Latency: 119.97 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #12 | TRIAL 12 | 12:37:17
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.542 CPU=0.7% MEM=16.3% DISK=82.3% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.478 CPU=3.4% MEM=55.1% DISK=84.9% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.539 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.530 CPU=1.3% MEM=45.1% DISK=74.3% REPUT=0.62 REL=0.44 TASKS=2 | 🟢 FREE
+
+🏆 SELECTED: machine3-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.135:8680/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793443023_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 1.95 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #13 | TRIAL 13 | 12:37:33
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.465 CPU=2.2% MEM=16.3% DISK=82.3% REPUT=0.70 REL=0.99 TASKS=4 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.530 CPU=1.3% MEM=45.1% DISK=74.3% REPUT=0.62 REL=0.44 TASKS=2 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.484 CPU=1.2% MEM=55.0% DISK=84.9% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.539 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+
+🏆 SELECTED: machine4-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:8980/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793458478_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 114.55 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #14 | TRIAL 14 | 12:37:48
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.469 CPU=0.2% MEM=16.3% DISK=82.3% REPUT=0.70 REL=0.99 TASKS=4 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.483 CPU=1.4% MEM=55.1% DISK=84.9% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.462 CPU=2.1% MEM=20.0% DISK=81.1% REPUT=0.70 REL=0.99 TASKS=4 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.527 CPU=2.3% MEM=45.2% DISK=74.3% REPUT=0.62 REL=0.44 TASKS=2 | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.127:8280/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793478327_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 7.34 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #15 | TRIAL 15 | 12:38:03
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.469 CPU=0.3% MEM=16.4% DISK=82.3% REPUT=0.70 REL=0.99 TASKS=4 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.448 CPU=8.8% MEM=45.2% DISK=74.3% REPUT=0.67 REL=0.39 TASKS=3 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.483 CPU=1.3% MEM=55.0% DISK=84.9% REPUT=0.67 REL=0.99 TASKS=3 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.466 CPU=0.1% MEM=20.0% DISK=81.1% REPUT=0.70 REL=0.99 TASKS=4 | 🟢 FREE
+
+🏆 SELECTED: machine2-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'n_samples': 150}
+🔗 Target: http://192.168.1.108:8380/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793489156_1', 'task_type': 'CLASSIFICATION'}
+⏱️  Latency: 130.97 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #16 | TRIAL 16 | 12:38:19
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.469 CPU=0.3% MEM=16.4% DISK=82.3% REPUT=0.70 REL=0.99 TASKS=4 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.414 CPU=3.4% MEM=55.0% DISK=84.9% REPUT=0.70 REL=0.99 TASKS=4 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.466 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.70 REL=0.99 TASKS=4 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.464 CPU=2.2% MEM=45.3% DISK=74.3% REPUT=0.67 REL=0.39 TASKS=3 | 🟢 FREE
+
+🏆 SELECTED: machine3-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.135:8680/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793504461_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 2.08 ms
+----------------------------------------------
+==============================================================================================================
+🔄 CYCLE #17 | TRIAL 17 | 12:38:34
+==============================================================================================================
+💻 Source CPU: 1.9%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.390 CPU=2.4% MEM=16.4% DISK=82.3% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.461 CPU=3.2% MEM=45.4% DISK=74.3% REPUT=0.67 REL=0.39 TASKS=3 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.419 CPU=1.1% MEM=55.0% DISK=84.9% REPUT=0.70 REL=0.99 TASKS=4 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.466 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.70 REL=0.99 TASKS=4 | 🟢 FREE
+
+🏆 SELECTED: machine4-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:8980/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793519920_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 114.22 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #18 | TRIAL 18 | 12:38:49
+==============================================================================================================
+💻 Source CPU: 1.9%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.391 CPU=1.8% MEM=16.4% DISK=82.3% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.419 CPU=1.2% MEM=55.0% DISK=84.9% REPUT=0.70 REL=0.99 TASKS=4 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.388 CPU=2.1% MEM=20.0% DISK=81.1% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.464 CPU=2.0% MEM=45.4% DISK=74.3% REPUT=0.67 REL=0.39 TASKS=3 | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.127:8280/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793539774_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 11.47 ms
+-------------------------------------------------
+==============================================================================================================
+🔄 CYCLE #19 | TRIAL 19 | 12:39:05
+==============================================================================================================
+💻 Source CPU: 1.3%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.388 CPU=3.1% MEM=17.4% DISK=82.4% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.388 CPU=7.9% MEM=45.4% DISK=74.3% REPUT=0.70 REL=0.36 TASKS=4 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.418 CPU=1.3% MEM=54.9% DISK=84.9% REPUT=0.70 REL=0.99 TASKS=4 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.391 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+
+🏆 SELECTED: machine2-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'n_samples': 150}
+🔗 Target: http://192.168.1.108:8380/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793550594_1', 'task_type': 'CLASSIFICATION'}
+⏱️  Latency: 119.75 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #20 | TRIAL 20 | 12:39:20
+==============================================================================================================
+💻 Source CPU: 4.4%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.392 CPU=1.0% MEM=16.4% DISK=82.3% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.391 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.348 CPU=3.1% MEM=55.0% DISK=84.9% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.401 CPU=1.5% MEM=45.6% DISK=74.3% REPUT=0.70 REL=0.36 TASKS=4 | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'n_steps': 1000}
+🔗 Target: http://192.168.1.127:8280/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793570506_3', 'task_type': 'TIMESERIES'}
+⏱️  Latency: 12.61 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #21 | TRIAL 21 | 12:39:35
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.394 CPU=0.3% MEM=16.4% DISK=82.3% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.326 CPU=7.5% MEM=45.6% DISK=74.3% REPUT=0.73 REL=0.35 TASKS=5 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.352 CPU=1.2% MEM=54.9% DISK=84.9% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.391 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+
+🏆 SELECTED: machine3-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.135:8680/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793581191_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 2.10 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #22 | TRIAL 22 | 12:39:51
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.314 CPU=2.4% MEM=16.1% DISK=82.3% REPUT=0.75 REL=0.99 TASKS=6 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.352 CPU=1.0% MEM=54.9% DISK=84.9% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.391 CPU=0.2% MEM=20.0% DISK=81.1% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.337 CPU=1.4% MEM=45.5% DISK=74.3% REPUT=0.73 REL=0.35 TASKS=5 | 🟢 FREE
+
+🏆 SELECTED: machine4-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:8980/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793596619_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 43.10 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #23 | TRIAL 23 | 12:40:06
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.317 CPU=0.5% MEM=16.2% DISK=82.3% REPUT=0.75 REL=0.99 TASKS=6 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.311 CPU=2.9% MEM=19.7% DISK=81.1% REPUT=0.75 REL=0.99 TASKS=6 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.352 CPU=1.2% MEM=54.9% DISK=84.9% REPUT=0.73 REL=0.99 TASKS=5 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.336 CPU=1.6% MEM=45.5% DISK=74.3% REPUT=0.73 REL=0.35 TASKS=5 | 🟢 FREE
+
+🏆 SELECTED: machine2-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'n_samples': 150}
+🔗 Target: http://192.168.1.108:8380/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793611943_1', 'task_type': 'CLASSIFICATION'}
+⏱️  Latency: 70.33 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #24 | TRIAL 24 | 12:40:21
+==============================================================================================================
+💻 Source CPU: 2.5%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.317 CPU=0.4% MEM=16.2% DISK=82.3% REPUT=0.75 REL=0.99 TASKS=6 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.336 CPU=1.9% MEM=45.5% DISK=74.3% REPUT=0.73 REL=0.35 TASKS=5 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.315 CPU=0.2% MEM=19.5% DISK=81.1% REPUT=0.75 REL=0.99 TASKS=6 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.280 CPU=3.3% MEM=55.0% DISK=84.9% REPUT=0.75 REL=0.99 TASKS=6 | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.127:8280/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793631870_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 7.12 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #25 | TRIAL 25 | 12:40:37
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.316 CPU=0.9% MEM=16.2% DISK=82.4% REPUT=0.75 REL=0.99 TASKS=6 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.315 CPU=0.2% MEM=19.5% DISK=81.1% REPUT=0.75 REL=0.99 TASKS=6 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.282 CPU=1.5% MEM=55.3% DISK=84.9% REPUT=0.75 REL=0.99 TASKS=6 | 🟢 FREE
+  machine1-N1 (192.168.1.127) | SCORE=0.261 CPU=8.4% MEM=45.5% DISK=74.3% REPUT=0.75 REL=0.34 TASKS=6 | 🟢 FREE
+
+🏆 SELECTED: machine3-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.135:8680/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793642599_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 2.17 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #26 | TRIAL 26 | 12:40:52
+==============================================================================================================
+💻 Source CPU: 1.2%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.237 CPU=2.2% MEM=16.1% DISK=82.4% REPUT=0.77 REL=0.99 TASKS=7 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.269 CPU=2.4% MEM=45.4% DISK=74.3% REPUT=0.75 REL=0.34 TASKS=6 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.315 CPU=0.2% MEM=19.5% DISK=81.1% REPUT=0.75 REL=0.99 TASKS=6 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.283 CPU=1.1% MEM=55.0% DISK=84.9% REPUT=0.75 REL=0.99 TASKS=6 | 🟢 FREE
+
+🏆 SELECTED: machine4-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:8980/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793658062_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 113.36 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #27 | TRIAL 27 | 12:41:08
+==============================================================================================================
+💻 Source CPU: 3.8%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.237 CPU=1.6% MEM=16.2% DISK=82.4% REPUT=0.77 REL=0.99 TASKS=7 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.235 CPU=2.3% MEM=19.5% DISK=81.1% REPUT=0.77 REL=0.99 TASKS=7 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.283 CPU=1.1% MEM=55.0% DISK=84.9% REPUT=0.75 REL=0.99 TASKS=6 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.268 CPU=3.1% MEM=45.5% DISK=74.3% REPUT=0.75 REL=0.34 TASKS=6 | 🟢 FREE
+
+🏆 SELECTED: machine2-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.108:8380/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793673394_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 82.00 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #28 | TRIAL 28 | 12:41:23
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.238 CPU=0.9% MEM=16.2% DISK=82.4% REPUT=0.77 REL=0.99 TASKS=7 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.269 CPU=2.4% MEM=45.6% DISK=74.3% REPUT=0.75 REL=0.34 TASKS=6 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.237 CPU=0.3% MEM=19.5% DISK=81.1% REPUT=0.77 REL=0.99 TASKS=7 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.211 CPU=3.3% MEM=55.2% DISK=84.9% REPUT=0.77 REL=0.99 TASKS=7 | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.127:8280/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793693317_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 8.00 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #29 | TRIAL 29 | 12:41:38
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.239 CPU=0.3% MEM=16.1% DISK=82.4% REPUT=0.77 REL=0.99 TASKS=7 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.238 CPU=0.2% MEM=19.5% DISK=81.1% REPUT=0.77 REL=0.99 TASKS=7 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.213 CPU=1.1% MEM=55.1% DISK=84.9% REPUT=0.77 REL=0.99 TASKS=7 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.196 CPU=8.7% MEM=45.9% DISK=74.3% REPUT=0.77 REL=0.33 TASKS=7 | 🟢 FREE
+
+🏆 SELECTED: machine3-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.135:8680/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793704039_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 1.87 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #30 | TRIAL 30 | 12:41:54
+==============================================================================================================
+💻 Source CPU: 2.2%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.160 CPU=2.3% MEM=14.8% DISK=77.9% REPUT=0.79 REL=0.99 TASKS=8 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.238 CPU=1.8% MEM=18.7% DISK=77.8% REPUT=0.77 REL=0.99 TASKS=7 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.216 CPU=3.0% MEM=52.8% DISK=78.4% REPUT=0.77 REL=0.99 TASKS=7 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.197 CPU=5.5% MEM=48.0% DISK=77.5% REPUT=0.77 REL=0.33 TASKS=7 | 🟢 FREE
+
+🏆 SELECTED: machine4-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.137:8980/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793719789_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 8.24 ms
+------------------------------------------------------
+==============================================================================================================
+🔄 CYCLE #31 | TRIAL 31 | 12:42:09
+==============================================================================================================
+💻 Source CPU: 1.3%
+📡 Received 4 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.160 CPU=2.3% MEM=14.8% DISK=77.9% REPUT=0.79 REL=0.99 TASKS=8 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.159 CPU=2.3% MEM=18.8% DISK=77.8% REPUT=0.79 REL=0.99 TASKS=8 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.197 CPU=4.9% MEM=48.0% DISK=77.5% REPUT=0.77 REL=0.33 TASKS=7 | 🟢 FREE
+  machine2-N1 (192.168.1.108) | SCORE=0.216 CPU=2.8% MEM=52.7% DISK=78.4% REPUT=0.77 REL=0.99 TASKS=7 | 🟢 FREE
+
+🏆 SELECTED: machine2-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.108:8380/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793735229_1', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 141.12 ms
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #32 | TRIAL 32 | 12:42:25
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 Received 3 unique node responses:
+  machine3-N1 (192.168.1.135) | SCORE=0.160 CPU=2.1% MEM=14.8% DISK=77.9% REPUT=0.79 REL=0.99 TASKS=8 | 🟢 FREE
+  machine4-N1 (192.168.1.137) | SCORE=0.159 CPU=2.1% MEM=18.8% DISK=77.8% REPUT=0.79 REL=0.99 TASKS=8 | 🟢 FREE
+  machine1-N3 (192.168.1.127) | SCORE=0.198 CPU=4.7% MEM=48.1% DISK=77.5% REPUT=0.77 REL=0.33 TASKS=7 | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'n_images': 50}
+🔗 Target: http://192.168.1.127:8280/execute
+✅ Response: {'status': 'ACCEPTED', 'task_id': 'task_1772793755265_3', 'task_type': 'CV_INFERENCE'}
+⏱️  Latency: 7.11 ms
+-----------------------------------------------------------------

@@ -1,0 +1,1245 @@
+node1@node1:~/Desktop/lstm_llm/final_test_reactive$ python3 source1.py
+
+==============================================================================================================
+🔄 CYCLE #1 | TRIAL 1 | 11:40:35
+==============================================================================================================
+💻 Source CPU: 0.3%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=13.8% DISK=82.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.2% MEM=16.9% DISK=81.1% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.3% MEM=49.6% DISK=84.9% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=3.7% MEM=46.3% DISK=74.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.9, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 6.18 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #2 | TRIAL 2 | 11:40:51
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.3% MEM=13.8% DISK=82.3% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.9% DISK=81.1% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.6% DISK=84.9% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.0% DISK=74.3% TASKS= 2 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.9, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 30.15 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #3 | TRIAL 3 | 11:41:07
+==============================================================================================================
+💻 Source CPU: 0.3%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=13.8% DISK=82.3% TASKS= 2 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=16.8% DISK=81.1% TASKS= 2 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.6% DISK=84.9% TASKS= 2 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.0% DISK=74.3% TASKS= 2 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.127:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine1', 'node': 1, 'cpu_at_accept': 1.6, 'mem_at_accept': 46.0, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 23.21 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #4 | TRIAL 4 | 11:41:24
+==============================================================================================================
+💻 Source CPU: 0.3%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=13.8% DISK=82.3% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=2.0% MEM=46.0% DISK=74.3% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.9% DISK=81.1% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.9% MEM=49.5% DISK=84.9% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.9, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 34.34 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #5 | TRIAL 5 | 11:41:40
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.2% MEM=13.8% DISK=82.3% TASKS= 4 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=16.9% DISK=81.1% TASKS= 4 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.2% MEM=49.5% DISK=84.9% TASKS= 4 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.1% DISK=74.3% TASKS= 4 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.127:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine1', 'node': 1, 'cpu_at_accept': 1.5, 'mem_at_accept': 46.1, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 9.41 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #6 | TRIAL 6 | 11:41:57
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=13.8% DISK=82.3% TASKS= 5 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=6.9% MEM=46.1% DISK=74.3% TASKS= 5 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=16.9% DISK=81.1% TASKS= 5 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.5% DISK=84.9% TASKS= 5 | LAST=CLASSIFICATION | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.135:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine3', 'node': 1, 'cpu_at_accept': 0.6, 'mem_at_accept': 13.8, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 2.24 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #7 | TRIAL 7 | 11:42:13
+==============================================================================================================
+💻 Source CPU: 0.9%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.3% MEM=13.8% DISK=82.3% TASKS= 6 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.1% DISK=74.3% TASKS= 6 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.9% DISK=81.1% TASKS= 6 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.0% MEM=49.5% DISK=84.9% TASKS= 6 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.9, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 38.22 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #8 | TRIAL 8 | 11:42:30
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=13.7% DISK=82.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.9% DISK=81.1% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=2.5% MEM=49.5% DISK=84.9% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.0% DISK=74.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.9, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 74.19 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #9 | TRIAL 9 | 11:42:46
+==============================================================================================================
+💻 Source CPU: 0.9%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=13.7% DISK=82.3% TASKS= 8 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=16.9% DISK=81.1% TASKS= 8 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.9% MEM=49.7% DISK=84.9% TASKS= 8 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.9% MEM=47.0% DISK=74.3% TASKS= 8 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.135:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine3', 'node': 1, 'cpu_at_accept': 0.3, 'mem_at_accept': 13.7, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 2.26 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #10 | TRIAL 10 | 11:43:02
+==============================================================================================================
+💻 Source CPU: 0.3%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.2% MEM=13.8% DISK=82.3% TASKS= 9 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=10.7% MEM=46.7% DISK=74.3% TASKS= 9 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.9% DISK=81.1% TASKS= 9 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=22.3% MEM=49.8% DISK=84.9% TASKS= 9 | LAST=CLASSIFICATION | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.9, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 30.05 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #11 | TRIAL 11 | 11:43:19
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 3 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=13.8% DISK=82.3% TASKS=10 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.2% MEM=49.8% DISK=84.9% TASKS=10 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.8% MEM=46.7% DISK=74.3% TASKS=10 | LAST=CLASSIFICATION | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.135:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine3', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 13.8, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 2.18 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #12 | TRIAL 12 | 11:43:35
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.2% MEM=13.8% DISK=82.3% TASKS=11 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.7% DISK=74.3% TASKS=11 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.9% DISK=81.1% TASKS=11 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.6% DISK=84.9% TASKS=11 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.9, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 33.07 ms
+==============================================================================================================
+🔄 CYCLE #13 | TRIAL 13 | 11:43:52
+==============================================================================================================
+💻 Source CPU: 2.8%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=3.1% MEM=13.8% DISK=82.3% TASKS=12 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.9% DISK=81.1% TASKS=12 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.6% DISK=84.9% TASKS=12 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.9% DISK=74.3% TASKS=12 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.3, 'mem_at_accept': 16.8, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 5.91 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #14 | TRIAL 14 | 11:44:08
+==============================================================================================================
+💻 Source CPU: 5.6%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=6.9% MEM=14.2% DISK=82.3% TASKS=13 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.9% DISK=74.3% TASKS=13 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.8% DISK=81.1% TASKS=13 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=3.2% MEM=49.5% DISK=84.9% TASKS=13 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.8, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 7.23 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #15 | TRIAL 15 | 11:44:25
+==============================================================================================================
+💻 Source CPU: 1.9%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=4.4% MEM=14.4% DISK=82.3% TASKS=14 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.8% DISK=74.3% TASKS=14 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.8% DISK=81.1% TASKS=14 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.2% MEM=49.5% DISK=84.9% TASKS=14 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.8, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 37.41 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #16 | TRIAL 16 | 11:44:41
+==============================================================================================================
+💻 Source CPU: 0.9%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=2.5% MEM=14.1% DISK=82.3% TASKS=15 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.8% DISK=81.1% TASKS=15 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.9% MEM=49.6% DISK=84.9% TASKS=15 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=9.1% MEM=46.9% DISK=74.3% TASKS=15 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.8, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 6.12 ms
+--------------------------------------
+==============================================================================================================
+🔄 CYCLE #17 | TRIAL 17 | 11:44:57
+==============================================================================================================
+💻 Source CPU: 0.3%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.0% DISK=82.3% TASKS=16 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.0% DISK=74.3% TASKS=16 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.8% DISK=81.1% TASKS=16 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.7% DISK=84.9% TASKS=16 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.3, 'mem_at_accept': 16.8, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 32.36 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #18 | TRIAL 18 | 11:45:14
+==============================================================================================================
+💻 Source CPU: 1.3%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.3% MEM=14.0% DISK=82.3% TASKS=17 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.8% DISK=81.1% TASKS=17 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=17.0% MEM=49.4% DISK=84.9% TASKS=17 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.0% DISK=74.3% TASKS=17 | LAST=CLASSIFICATION | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.4, 'mem_at_accept': 16.8, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 70.51 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #19 | TRIAL 19 | 11:45:30
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.2% MEM=14.0% DISK=82.3% TASKS=18 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=16.8% DISK=81.1% TASKS=18 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=2.5% MEM=49.6% DISK=84.9% TASKS=18 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.9% DISK=74.3% TASKS=18 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.127:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine1', 'node': 1, 'cpu_at_accept': 2.9, 'mem_at_accept': 47.0, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 10.08 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #20 | TRIAL 20 | 11:45:47
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.9% MEM=14.0% DISK=82.3% TASKS=19 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.9% MEM=47.0% DISK=74.3% TASKS=19 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.8% DISK=81.1% TASKS=19 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.9% MEM=49.6% DISK=84.9% TASKS=19 | LAST=CLASSIFICATION | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.8, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 37.75 ms
+------------------------------------------------------
+==============================================================================================================
+🔄 CYCLE #21 | TRIAL 21 | 11:46:03
+==============================================================================================================
+💻 Source CPU: 0.9%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.3% MEM=14.4% DISK=82.3% TASKS=20 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.8% DISK=81.1% TASKS=20 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.0% MEM=49.6% DISK=84.9% TASKS=20 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=3.7% MEM=46.9% DISK=74.3% TASKS=20 | LAST=CLASSIFICATION | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.3, 'mem_at_accept': 16.8, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 6.72 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #22 | TRIAL 22 | 11:46:20
+==============================================================================================================
+💻 Source CPU: 0.9%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.4% DISK=82.3% TASKS=21 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.1% DISK=74.3% TASKS=21 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.8% DISK=81.1% TASKS=21 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.2% MEM=49.5% DISK=84.9% TASKS=21 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.8, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 37.04 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #23 | TRIAL 23 | 11:46:36
+==============================================================================================================
+💻 Source CPU: 0.3%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.2% MEM=14.3% DISK=82.3% TASKS=22 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.8% DISK=81.1% TASKS=22 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=38.6% MEM=49.6% DISK=84.9% TASKS=22 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.8% MEM=46.2% DISK=74.3% TASKS=22 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.3, 'mem_at_accept': 16.8, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 72.76 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #24 | TRIAL 24 | 11:46:53
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.4% DISK=82.3% TASKS=23 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.8% DISK=81.1% TASKS=23 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=41.4% MEM=49.6% DISK=84.9% TASKS=23 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=3.5% MEM=46.1% DISK=74.3% TASKS=23 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.8, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 73.43 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #25 | TRIAL 25 | 11:47:09
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.2% MEM=14.4% DISK=82.3% TASKS=24 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=16.8% DISK=81.1% TASKS=24 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=7.0% MEM=49.5% DISK=84.9% TASKS=24 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.7% MEM=46.1% DISK=74.3% TASKS=24 | LAST=CLASSIFICATION | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.3, 'mem_at_accept': 16.8, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 74.89 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #26 | TRIAL 26 | 11:47:26
+==============================================================================================================
+💻 Source CPU: 1.2%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.4% DISK=82.3% TASKS=25 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.8% DISK=81.1% TASKS=25 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=2.5% MEM=49.3% DISK=84.9% TASKS=25 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=5.6% MEM=46.1% DISK=74.3% TASKS=25 | LAST=CLASSIFICATION | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.8, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 43.10 ms
+---------------------------
+==============================================================================================================
+🔄 CYCLE #27 | TRIAL 27 | 11:47:42
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.2% MEM=14.3% DISK=82.3% TASKS=26 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.1% DISK=74.3% TASKS=26 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=16.8% DISK=81.1% TASKS=26 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.2% DISK=84.9% TASKS=26 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.8, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 6.26 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #28 | TRIAL 28 | 11:47:58
+==============================================================================================================
+💻 Source CPU: 1.3%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.9% MEM=14.4% DISK=82.3% TASKS=27 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.8% MEM=46.1% DISK=74.3% TASKS=27 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=16.8% DISK=81.1% TASKS=27 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.2% DISK=84.9% TASKS=27 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 16.8, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 5.81 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #29 | TRIAL 29 | 11:48:15
+==============================================================================================================
+💻 Source CPU: 1.9%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.4% DISK=82.3% TASKS=28 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.1% DISK=74.3% TASKS=28 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=17.1% DISK=81.1% TASKS=28 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.9% MEM=49.1% DISK=84.9% TASKS=28 | LAST=CLASSIFICATION | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.127:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine1', 'node': 1, 'cpu_at_accept': 1.6, 'mem_at_accept': 46.1, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 48.17 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #30 | TRIAL 30 | 11:48:31
+==============================================================================================================
+💻 Source CPU: 1.6%
+
+📡 Received 4 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.3% MEM=14.6% DISK=82.3% TASKS=29 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=3.1% MEM=49.2% DISK=84.9% TASKS=29 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.1% DISK=81.1% TASKS=29 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=46.0% DISK=74.3% TASKS=29 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.3, 'mem_at_accept': 17.1, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 65.49 ms
+--------------------------------
+
+
+
+4 Machines 3 logical nodes
+
+myenv) node1@node1:~/Desktop/lstm_llm/final_test_reactive$ python3 source1.py
+
+==============================================================================================================
+🔄 CYCLE #1 | TRIAL 1 | 11:54:30
+==============================================================================================================
+💻 Source CPU: 1.2%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=14.8% DISK=82.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=14.8% DISK=82.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.8% DISK=82.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=1.8% MEM=47.5% DISK=74.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=1.8% MEM=47.5% DISK=74.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.8% MEM=47.5% DISK=74.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.3% MEM=49.2% DISK=84.9% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.3% MEM=49.2% DISK=84.9% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=1.3% MEM=49.2% DISK=84.9% TASKS= 0 | LAST=NONE         | 🟢 FREE
+
+🏆 SELECTED: machine1-N2
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.135:8090/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine3', 'node': 2, 'cpu_at_accept': 0.8, 'mem_at_accept': 14.8, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 3.47 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #2 | TRIAL 2 | 11:54:46
+==============================================================================================================
+💻 Source CPU: 0.3%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=14.8% DISK=82.3% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=14.8% DISK=82.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.8% DISK=82.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=0.0% MEM=47.4% DISK=74.3% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.4% DISK=74.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=0.0% MEM=47.4% DISK=74.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.3% MEM=49.1% DISK=84.9% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.3% MEM=49.1% DISK=84.9% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=1.3% MEM=49.1% DISK=84.9% TASKS= 0 | LAST=NONE         | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.3, 'mem_at_accept': 17.2, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 7.95 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #3 | TRIAL 3 | 11:55:03
+==============================================================================================================
+💻 Source CPU: 0.3%
+
+📡 Received 11 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=1.2% MEM=14.8% DISK=82.3% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=1.2% MEM=14.8% DISK=82.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=1.2% MEM=14.8% DISK=82.3% TASKS= 1 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=1.8% MEM=47.4% DISK=74.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.8% MEM=47.4% DISK=74.3% TASKS= 1 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=1.8% MEM=47.4% DISK=74.3% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 1 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.0% MEM=49.1% DISK=84.9% TASKS= 1 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=0.0% MEM=49.1% DISK=84.9% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=0.0% MEM=49.1% DISK=84.9% TASKS= 0 | LAST=NONE         | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.3, 'mem_at_accept': 17.2, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 27.85 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #4 | TRIAL 4 | 11:55:19
+==============================================================================================================
+💻 Source CPU: 0.3%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=0.0% MEM=15.8% DISK=82.4% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.0% MEM=15.8% DISK=82.4% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=0.0% MEM=15.8% DISK=82.4% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.2% MEM=49.2% DISK=84.9% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.2% MEM=49.2% DISK=84.9% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=1.2% MEM=49.2% DISK=84.9% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.8% MEM=47.4% DISK=74.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=1.8% MEM=47.4% DISK=74.3% TASKS= 0 | LAST=NONE         | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=1.8% MEM=47.4% DISK=74.3% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.135:8100/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine3', 'node': 3, 'cpu_at_accept': 0.7, 'mem_at_accept': 15.8, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 2.91 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #5 | TRIAL 5 | 11:55:36
+==============================================================================================================
+💻 Source CPU: 0.9%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=14.8% DISK=82.3% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=14.8% DISK=82.3% TASKS= 1 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.8% DISK=82.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.4% DISK=74.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=0.0% MEM=47.4% DISK=74.3% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=0.0% MEM=47.4% DISK=74.3% TASKS= 1 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 1 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=0.0% MEM=49.2% DISK=84.9% TASKS= 1 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=0.0% MEM=49.2% DISK=84.9% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.0% MEM=49.2% DISK=84.9% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.137:8100/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 3, 'cpu_at_accept': 0.2, 'mem_at_accept': 17.3, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 35.34 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #6 | TRIAL 6 | 11:55:52
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 12 unique node responses:
+  machine1-N3 (192.168.1.135) | CPU=1.3% MEM=14.8% DISK=82.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.135) | CPU=1.3% MEM=14.8% DISK=82.3% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=1.3% MEM=14.8% DISK=82.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=3.1% MEM=49.2% DISK=84.9% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=3.1% MEM=49.2% DISK=84.9% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=3.1% MEM=49.2% DISK=84.9% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=0.0% MEM=47.4% DISK=74.3% TASKS= 1 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.4% DISK=74.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=0.0% MEM=47.4% DISK=74.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N2
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.127:8090/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine1', 'node': 2, 'cpu_at_accept': 2.8, 'mem_at_accept': 47.4, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 10.16 ms
+----------------------------------------
+==============================================================================================================
+🔄 CYCLE #7 | TRIAL 7 | 11:56:08
+==============================================================================================================
+💻 Source CPU: 2.5%
+
+📡 Received 10 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=2.5% MEM=14.9% DISK=82.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=2.5% MEM=14.9% DISK=82.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.135) | CPU=2.5% MEM=14.9% DISK=82.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=74.1% MEM=47.4% DISK=74.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=74.1% MEM=47.4% DISK=74.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=74.1% MEM=47.4% DISK=74.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.9% MEM=49.1% DISK=84.9% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 17.2, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 24.20 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #8 | TRIAL 8 | 11:56:25
+==============================================================================================================
+💻 Source CPU: 1.6%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.1% DISK=84.9% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=0.6% MEM=49.1% DISK=84.9% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=0.6% MEM=49.1% DISK=84.9% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=1.9% MEM=47.4% DISK=74.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=1.9% MEM=47.4% DISK=74.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.9% MEM=47.4% DISK=74.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N2
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.137:8090/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 2, 'cpu_at_accept': 0.3, 'mem_at_accept': 17.2, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 74.29 ms
+==============================================================================================================
+🔄 CYCLE #9 | TRIAL 9 | 11:56:41
+==============================================================================================================
+💻 Source CPU: 1.6%
+
+📡 Received 11 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=1.2% MEM=14.9% DISK=82.3% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=1.2% MEM=14.9% DISK=82.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=1.2% MEM=14.9% DISK=82.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 2 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=17.2% DISK=81.1% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=6.3% MEM=49.3% DISK=84.9% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=6.4% MEM=49.3% DISK=84.9% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.127:8100/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine1', 'node': 3, 'cpu_at_accept': 1.9, 'mem_at_accept': 47.4, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 12.42 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #10 | TRIAL 10 | 11:56:58
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 12 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.2% MEM=49.1% DISK=84.9% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.3% MEM=49.1% DISK=84.9% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=1.2% MEM=49.1% DISK=84.9% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=3.8% MEM=47.5% DISK=74.3% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=3.8% MEM=47.5% DISK=74.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=3.8% MEM=47.5% DISK=74.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.137:8100/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 3, 'cpu_at_accept': 0.2, 'mem_at_accept': 17.2, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 73.43 ms
+------------------------
+==============================================================================================================
+🔄 CYCLE #11 | TRIAL 11 | 11:57:14
+==============================================================================================================
+💻 Source CPU: 8.1%
+
+📡 Received 12 unique node responses:
+  machine1-N3 (192.168.1.135) | CPU=1.2% MEM=14.8% DISK=82.3% TASKS= 4 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=1.2% MEM=14.8% DISK=82.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.135) | CPU=1.2% MEM=14.8% DISK=82.3% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=1.9% MEM=17.2% DISK=81.1% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=1.9% MEM=17.2% DISK=81.1% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=1.9% MEM=17.2% DISK=81.1% TASKS= 4 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=0.6% MEM=49.3% DISK=84.9% TASKS= 4 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.3% MEM=49.3% DISK=84.9% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.3% MEM=49.3% DISK=84.9% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=1.8% MEM=47.5% DISK=74.3% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=1.8% MEM=47.5% DISK=74.3% TASKS= 4 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.8% MEM=47.5% DISK=74.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.108:8100/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine2', 'node': 3, 'cpu_at_accept': 1.4, 'mem_at_accept': 49.2, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 110.49 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #12 | TRIAL 12 | 11:57:31
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 12 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.8% MEM=47.4% DISK=74.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=1.8% MEM=47.4% DISK=74.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=1.8% MEM=47.4% DISK=74.3% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.9% MEM=49.2% DISK=84.9% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.9% MEM=49.2% DISK=84.9% TASKS= 3 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=1.9% MEM=49.2% DISK=84.9% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N2
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.137:8090/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 2, 'cpu_at_accept': 0.2, 'mem_at_accept': 17.3, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 29.18 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #13 | TRIAL 13 | 11:57:47
+==============================================================================================================
+💻 Source CPU: 0.3%
+
+📡 Received 12 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.8% DISK=82.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=14.8% DISK=82.3% TASKS= 4 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=14.8% DISK=82.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 4 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.0% MEM=17.2% DISK=81.1% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=0.6% MEM=49.2% DISK=84.9% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.2% DISK=84.9% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=0.6% MEM=49.2% DISK=84.9% TASKS= 4 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=1.8% MEM=47.4% DISK=74.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=1.8% MEM=47.4% DISK=74.3% TASKS= 4 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.8% MEM=47.4% DISK=74.3% TASKS= 3 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 17.2, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 70.23 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #14 | TRIAL 14 | 11:58:04
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 4 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 4 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 4 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 4 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.2% MEM=49.2% DISK=84.9% TASKS= 4 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.2% MEM=49.2% DISK=84.9% TASKS= 4 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=1.2% MEM=49.2% DISK=84.9% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=2.0% MEM=47.4% DISK=74.3% TASKS= 4 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=2.0% MEM=47.4% DISK=74.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=2.0% MEM=47.4% DISK=74.3% TASKS= 4 | LAST=CLASSIFICATION | 🟢 FREE
+
+🏆 SELECTED: machine1-N2
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.135:8090/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine3', 'node': 2, 'cpu_at_accept': 0.9, 'mem_at_accept': 14.9, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 1.91 ms
+----------------------------------------------
+==============================================================================================================
+🔄 CYCLE #15 | TRIAL 15 | 11:58:20
+==============================================================================================================
+💻 Source CPU: 1.6%
+
+📡 Received 11 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=1.3% MEM=14.8% DISK=82.3% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=1.2% MEM=14.8% DISK=82.3% TASKS= 4 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=1.2% MEM=14.8% DISK=82.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 4 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 4 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.2% MEM=49.1% DISK=84.9% TASKS= 4 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.2% MEM=49.1% DISK=84.9% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.127:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine1', 'node': 1, 'cpu_at_accept': 2.4, 'mem_at_accept': 47.5, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 12.29 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #16 | TRIAL 16 | 11:58:37
+==============================================================================================================
+💻 Source CPU: 0.9%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=1.2% MEM=14.9% DISK=82.3% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=1.2% MEM=14.9% DISK=82.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=1.2% MEM=14.9% DISK=82.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=2.0% MEM=47.5% DISK=74.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=2.0% MEM=47.5% DISK=74.3% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=2.0% MEM=47.5% DISK=74.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=2.5% MEM=49.3% DISK=84.9% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=2.5% MEM=49.3% DISK=84.9% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=2.5% MEM=49.3% DISK=84.9% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.2, 'mem_at_accept': 17.3, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 31.27 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #17 | TRIAL 17 | 11:58:53
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.0% MEM=49.2% DISK=84.9% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=0.0% MEM=49.2% DISK=84.9% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=0.6% MEM=49.2% DISK=84.9% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 5 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.137:8100/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 3, 'cpu_at_accept': 0.2, 'mem_at_accept': 17.3, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 8.09 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #18 | TRIAL 18 | 11:59:09
+==============================================================================================================
+💻 Source CPU: 2.2%
+
+📡 Received 12 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=1.9% MEM=14.9% DISK=82.3% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.135) | CPU=1.9% MEM=14.9% DISK=82.3% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=1.9% MEM=14.9% DISK=82.3% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.6% DISK=74.3% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=0.0% MEM=47.6% DISK=74.3% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=0.0% MEM=47.6% DISK=74.3% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.3% MEM=49.2% DISK=84.9% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.3% MEM=49.2% DISK=84.9% TASKS= 5 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=1.3% MEM=49.2% DISK=84.9% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N2
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.127:8090/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine1', 'node': 2, 'cpu_at_accept': 2.0, 'mem_at_accept': 47.5, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 8.92 ms
+-------------------------------------------------------------------
+=============================================================================================================
+🔄 CYCLE #19 | TRIAL 19 | 11:59:26
+==============================================================================================================
+💻 Source CPU: 0.9%
+
+📡 Received 11 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=1.8% MEM=47.5% DISK=74.3% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.8% MEM=47.5% DISK=74.3% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=1.8% MEM=47.5% DISK=74.3% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.3% MEM=49.2% DISK=84.9% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.3% MEM=49.2% DISK=84.9% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8100/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 3, 'cpu_at_accept': 0.3, 'mem_at_accept': 17.3, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 36.75 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #20 | TRIAL 20 | 11:59:42
+==============================================================================================================
+💻 Source CPU: 0.9%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.9% MEM=49.2% DISK=84.9% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.9% MEM=49.2% DISK=84.9% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=1.9% MEM=49.2% DISK=84.9% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=3.6% MEM=47.5% DISK=74.3% TASKS= 6 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=3.6% MEM=47.5% DISK=74.3% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=3.6% MEM=47.5% DISK=74.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N2
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.135:8090/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine3', 'node': 2, 'cpu_at_accept': 0.9, 'mem_at_accept': 14.9, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 2.25 ms
+---------------------------------------------
+==============================================================================================================
+🔄 CYCLE #21 | TRIAL 21 | 11:59:59
+==============================================================================================================
+💻 Source CPU: 1.9%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=1.9% MEM=14.9% DISK=82.3% TASKS= 7 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=1.9% MEM=14.9% DISK=82.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=1.9% MEM=14.9% DISK=82.3% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 7 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 7 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=0.0% MEM=49.2% DISK=84.9% TASKS= 7 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.0% MEM=49.2% DISK=84.9% TASKS= 6 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=0.0% MEM=49.2% DISK=84.9% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.127:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine1', 'node': 1, 'cpu_at_accept': 1.8, 'mem_at_accept': 47.5, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 11.84 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #22 | TRIAL 22 | 12:00:15
+==============================================================================================================
+💻 Source CPU: 0.6%
+
+📡 Received 12 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=14.9% DISK=82.3% TASKS= 7 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 7 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 7 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=0.6% MEM=49.1% DISK=84.9% TASKS= 7 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.1% DISK=84.9% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=0.6% MEM=49.1% DISK=84.9% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.137:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 1, 'cpu_at_accept': 0.3, 'mem_at_accept': 17.3, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 37.61 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #23 | TRIAL 23 | 12:00:32
+==============================================================================================================
+💻 Source CPU: 5.0%
+
+📡 Received 11 unique node responses:
+  machine1-N1 (192.168.1.135) | CPU=4.3% MEM=14.9% DISK=82.3% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.135) | CPU=4.3% MEM=14.9% DISK=82.3% TASKS= 7 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=4.3% MEM=14.9% DISK=82.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=1.9% MEM=17.3% DISK=81.1% TASKS= 7 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=1.9% MEM=17.3% DISK=81.1% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=1.9% MEM=17.3% DISK=81.1% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.2% DISK=84.9% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=0.6% MEM=49.2% DISK=84.9% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 7 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N2
+🎯 ASSIGNED: {'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150}
+🔗 Target: http://192.168.1.127:8090/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine1', 'node': 2, 'cpu_at_accept': 1.5, 'mem_at_accept': 47.5, 'task': 'CLASSIFICATION', 'duration': 1.5, 'size': 150, 'message': 'Task queued for background execution'}
+⏱️  Latency: 10.54 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #24 | TRIAL 24 | 12:00:48
+==============================================================================================================
+💻 Source CPU: 0.3%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=0.6% MEM=15.9% DISK=82.4% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=0.6% MEM=15.9% DISK=82.4% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=0.6% MEM=15.9% DISK=82.4% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.9% MEM=49.1% DISK=84.9% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.9% MEM=49.1% DISK=84.9% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=1.9% MEM=49.1% DISK=84.9% TASKS= 7 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N3
+🎯 ASSIGNED: {'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50}
+🔗 Target: http://192.168.1.137:8100/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 3, 'cpu_at_accept': 0.3, 'mem_at_accept': 17.3, 'task': 'CV_INFERENCE', 'duration': 1.5, 'size': 50, 'message': 'Task queued for background execution'}
+⏱️  Latency: 32.80 ms
+--------------------------------------------------------------------------------------------------------------
+
+
+==============================================================================================================
+🔄 CYCLE #25 | TRIAL 25 | 12:01:04
+==============================================================================================================
+💻 Source CPU: 3.8%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=5.7% MEM=14.9% DISK=82.3% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=5.7% MEM=14.9% DISK=82.3% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=5.7% MEM=14.9% DISK=82.3% TASKS= 8 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.6% MEM=17.3% DISK=81.1% TASKS= 8 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=1.2% MEM=49.1% DISK=84.9% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=1.2% MEM=49.1% DISK=84.9% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=1.2% MEM=49.1% DISK=84.9% TASKS= 8 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=0.0% MEM=47.5% DISK=74.3% TASKS= 8 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N1
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.127:8080/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine1', 'node': 1, 'cpu_at_accept': 1.2, 'mem_at_accept': 47.5, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 10.41 ms
+------------------------------------------------------------------
+==============================================================================================================
+🔄 CYCLE #26 | TRIAL 26 | 12:01:21
+==============================================================================================================
+💻 Source CPU: 5.7%
+
+📡 Received 12 unique node responses:
+  machine1-N2 (192.168.1.135) | CPU=6.2% MEM=14.9% DISK=82.3% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.135) | CPU=6.2% MEM=14.9% DISK=82.3% TASKS= 8 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.135) | CPU=6.2% MEM=14.9% DISK=82.3% TASKS= 9 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N1 (192.168.1.127) | CPU=1.8% MEM=47.5% DISK=74.3% TASKS= 9 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.127) | CPU=1.8% MEM=47.5% DISK=74.3% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.127) | CPU=1.8% MEM=47.5% DISK=74.3% TASKS= 8 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N2 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N1 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 9 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N3 (192.168.1.137) | CPU=0.0% MEM=17.3% DISK=81.1% TASKS= 8 | LAST=CV_INFERENCE | 🟢 FREE
+  machine1-N1 (192.168.1.108) | CPU=0.6% MEM=49.1% DISK=84.9% TASKS= 9 | LAST=TIMESERIES   | 🟢 FREE
+  machine1-N2 (192.168.1.108) | CPU=0.6% MEM=49.1% DISK=84.9% TASKS= 8 | LAST=CLASSIFICATION | 🟢 FREE
+  machine1-N3 (192.168.1.108) | CPU=0.6% MEM=49.1% DISK=84.9% TASKS= 8 | LAST=CV_INFERENCE | 🟢 FREE
+
+🏆 SELECTED: machine1-N2
+🎯 ASSIGNED: {'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000}
+🔗 Target: http://192.168.1.137:8090/execute
+✅ Response: {'status': 'ACCEPTED', 'physical_id': 'machine4', 'node': 2, 'cpu_at_accept': 0.3, 'mem_at_accept': 17.3, 'task': 'TIMESERIES', 'duration': 1.5, 'size': 1000, 'message': 'Task queued for background execution'}
+⏱️  Latency: 32.82 ms
+-------------------------------------------------------------------

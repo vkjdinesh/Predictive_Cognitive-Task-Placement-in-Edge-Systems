@@ -1,0 +1,2154 @@
+==============================================================================================================
+🔄 CYCLE #1 | TRIAL 1 | 16:13:00
+==============================================================================================================
+💻 Source CPU: 2.8%
+📡 11 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.579 | REL=0.600 | CPU=7.5% | MEM=73.2% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.579 | REL=0.600 | CPU=7.5% | MEM=73.2% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.579 | REL=0.600 | CPU=7.5% | MEM=73.2% | DISK=81.3% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.2% | MEM=58.4% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.2% | MEM=58.4% | DISK=85.6% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.790 | REL=1.000 | CPU=0.3% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.3% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.3% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.618 | REL=0.600 | CPU=0.7% | MEM=51.8% | DISK=75.1% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.616 | REL=0.600 | CPU=0.7% | MEM=51.8% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.618 | REL=0.600 | CPU=0.7% | MEM=51.8% | DISK=75.1% | 🟢 FREE
+
+🟢 11 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine2-N3@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine4-N1@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine1-N1@192.168.1.147
+   → machine1-N2@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N3@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N3@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.790)
+   🎯 LLM picked:   machine1-N3@192.168.1.147 (score=0.618)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   🔄 LLM OVERRIDE (-0.172 score diff):
+🧠 LLM SELECTED: machine1-N3@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N3@192.168.1.147:8280
+🔗 Target: [http://192.168.1.147:8280/execute](http://192.168.1.147:8280/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773324797402_3', 'task_type': 'CV_INFERENCE', 'node': 'machine1-N3'}
+⏱️  Latency: 20.87 ms
+📊 Hybrid Score: 0.733
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #2 | TRIAL 2 | 16:13:27
+==============================================================================================================
+💻 Source CPU: 2.2%
+📡 12 nodes discovered:
+  machine3-N2@192.168.1.143   | SCORE=0.577 | REL=0.600 | CPU=20.2% | MEM=73.5% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.578 | REL=0.600 | CPU=20.2% | MEM=73.5% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.578 | REL=0.600 | CPU=20.2% | MEM=73.5% | DISK=81.3% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.4% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.790 | REL=1.000 | CPU=0.4% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.4% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.4% | MEM=58.4% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.4% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.618 | REL=0.600 | CPU=1.3% | MEM=58.4% | DISK=85.6% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.617 | REL=0.600 | CPU=3.8% | MEM=51.9% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.632 | REL=0.600 | CPU=3.8% | MEM=51.9% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.617 | REL=0.600 | CPU=3.8% | MEM=51.9% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N2@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine4-N2@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine2-N3@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine1-N2@192.168.1.147
+   → machine1-N3@192.168.1.147
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N2@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N2@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.790)
+   🎯 LLM picked:   machine3-N2@192.168.1.143 (score=0.577)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   🔄 LLM OVERRIDE (-0.213 score diff):
+🧠 LLM SELECTED: machine3-N2@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N2@192.168.1.143:8780
+🔗 Target: [http://192.168.1.143:8780/execute](http://192.168.1.143:8780/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773324822998_2', 'task_type': 'TIMESERIES', 'node': 'machine3-N2'}
+⏱️  Latency: 4.39 ms
+📊 Hybrid Score: 0.704
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #3 | TRIAL 3 | 16:13:55
+==============================================================================================================
+💻 Source CPU: 2.2%
+📡 12 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.578 | REL=0.600 | CPU=21.3% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.576 | REL=0.600 | CPU=21.3% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.591 | REL=0.600 | CPU=21.3% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.4% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.4% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.790 | REL=1.000 | CPU=0.4% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.3% | MEM=58.5% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.3% | MEM=58.5% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.3% | MEM=58.5% | DISK=85.6% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.617 | REL=0.600 | CPU=1.2% | MEM=52.0% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.618 | REL=0.600 | CPU=1.2% | MEM=52.0% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.632 | REL=0.600 | CPU=1.2% | MEM=52.0% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine4-N2@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine1-N2@192.168.1.147
+   → machine1-N1@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N3@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N3@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.790)
+   🎯 LLM picked:   machine3-N3@192.168.1.143 (score=0.576)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   🔄 LLM OVERRIDE (-0.214 score diff):
+🧠 LLM SELECTED: machine3-N3@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N3@192.168.1.143:8880
+🔗 Target: [http://192.168.1.143:8880/execute](http://192.168.1.143:8880/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773324850241_3', 'task_type': 'CLASSIFICATION', 'node': 'machine3-N3'}
+⏱️  Latency: 2.94 ms
+📊 Hybrid Score: 0.704
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #4 | TRIAL 4 | 16:14:22
+==============================================================================================================
+💻 Source CPU: 2.2%
+📡 12 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.578 | REL=0.600 | CPU=20.8% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.592 | REL=0.600 | CPU=20.7% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.592 | REL=0.600 | CPU=20.7% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.4% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.790 | REL=1.000 | CPU=0.4% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.4% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.4% | MEM=58.3% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.3% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.3% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.618 | REL=0.600 | CPU=1.2% | MEM=52.0% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.628 | REL=0.600 | CPU=1.2% | MEM=52.0% | DISK=75.1% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.618 | REL=0.600 | CPU=1.2% | MEM=52.0% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine4-N3@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine1-N1@192.168.1.147
+   → machine1-N3@192.168.1.147
+   → machine1-N2@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine4-N3@192.168.1.137'
+🧠 LLM MATCHED (direct): 'machine4-N3@192.168.1.137'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.790)
+   🎯 LLM picked:   machine4-N3@192.168.1.137 (score=0.690)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   🔄 LLM OVERRIDE (-0.101 score diff):
+🧠 LLM SELECTED: machine4-N3@192.168.1.137
+
+🏆 FINAL ASSIGNMENT: machine4-N3@192.168.1.137:9180
+🔗 Target: [http://192.168.1.137:9180/execute](http://192.168.1.137:9180/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773324877595_3', 'task_type': 'CV_INFERENCE', 'node': 'machine4-N3'}
+⏱️  Latency: 115.47 ms
+📊 Hybrid Score: 0.783
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #5 | TRIAL 5 | 16:14:49
+==============================================================================================================
+💻 Source CPU: 3.4%
+📡 12 nodes discovered:
+  machine3-N2@192.168.1.143   | SCORE=0.588 | REL=0.600 | CPU=21.4% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.575 | REL=0.600 | CPU=21.4% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.589 | REL=0.600 | CPU=21.4% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=1.5% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=1.5% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.790 | REL=1.000 | CPU=1.5% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.4% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.4% | MEM=58.4% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.4% | DISK=85.6% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.614 | REL=0.600 | CPU=1.6% | MEM=51.3% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.617 | REL=0.600 | CPU=1.6% | MEM=51.3% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.633 | REL=0.600 | CPU=1.6% | MEM=51.3% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N2@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine4-N2@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine2-N3@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine1-N2@192.168.1.147
+   → machine1-N1@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N2@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N2@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.790)
+   🎯 LLM picked:   machine3-N2@192.168.1.143 (score=0.588)
+   ⚖️ Fairness: 0.900 (tasks=1)
+   🔄 LLM OVERRIDE (-0.202 score diff):
+🧠 LLM SELECTED: machine3-N2@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N2@192.168.1.143:8780
+🔗 Target: [http://192.168.1.143:8780/execute](http://192.168.1.143:8780/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773324906445_2', 'task_type': 'TIMESERIES', 'node': 'machine3-N2'}
+⏱️  Latency: 2.31 ms
+📊 Hybrid Score: 0.712
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #6 | TRIAL 6 | 16:15:18
+==============================================================================================================
+💻 Source CPU: 1.2%
+📡 12 nodes discovered:
+  machine3-N2@192.168.1.143   | SCORE=0.602 | REL=0.600 | CPU=24.3% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.579 | REL=0.600 | CPU=24.3% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.591 | REL=0.600 | CPU=24.3% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.790 | REL=1.000 | CPU=0.4% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.4% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.634 | REL=0.600 | CPU=2.0% | MEM=51.0% | DISK=75.1% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.618 | REL=0.600 | CPU=2.1% | MEM=51.0% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.619 | REL=0.600 | CPU=2.0% | MEM=51.0% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N2@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine1-N3@192.168.1.147
+   → machine1-N2@192.168.1.147
+   → machine1-N1@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N2@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N2@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.790)
+   🎯 LLM picked:   machine3-N2@192.168.1.143 (score=0.602)
+   ⚖️ Fairness: 0.800 (tasks=2)
+   🔄 LLM OVERRIDE (-0.188 score diff):
+🧠 LLM SELECTED: machine3-N2@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N2@192.168.1.143:8780
+🔗 Target: [http://192.168.1.143:8780/execute](http://192.168.1.143:8780/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773324933545_2', 'task_type': 'CLASSIFICATION', 'node': 'machine3-N2'}
+⏱️  Latency: 2.56 ms
+📊 Hybrid Score: 0.722
+-------------------------------------
+=============================================================================================================
+🔄 CYCLE #7 | TRIAL 7 | 16:15:45
+==============================================================================================================
+💻 Source CPU: 9.7%
+📡 11 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.578 | REL=0.600 | CPU=19.8% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.587 | REL=0.600 | CPU=19.8% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.641 | REL=1.000 | CPU=19.8% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.5% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.4% | MEM=58.5% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.5% | DISK=85.6% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.790 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.705 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.619 | REL=0.600 | CPU=1.3% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.630 | REL=0.600 | CPU=1.3% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+
+🟢 11 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine2-N1@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine4-N2@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine1-N2@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N2@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N2@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.790)
+   🎯 LLM picked:   machine3-N2@192.168.1.143 (score=0.641)
+   ⚖️ Fairness: 0.700 (tasks=3)
+   🔄 LLM OVERRIDE (-0.149 score diff):
+🧠 LLM SELECTED: machine3-N2@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N2@192.168.1.143:8780
+🔗 Target: [http://192.168.1.143:8780/execute](http://192.168.1.143:8780/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773324960114_2', 'task_type': 'CV_INFERENCE', 'node': 'machine3-N2'}
+⏱️  Latency: 1.92 ms
+📊 Hybrid Score: 0.749
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #8 | TRIAL 8 | 16:16:12
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 12 nodes discovered:
+  machine3-N2@192.168.1.143   | SCORE=0.659 | REL=1.000 | CPU=19.9% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.580 | REL=0.600 | CPU=19.9% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.594 | REL=0.600 | CPU=19.9% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.790 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.5% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.5% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.5% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.614 | REL=0.600 | CPU=1.6% | MEM=51.3% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.619 | REL=0.600 | CPU=1.5% | MEM=51.3% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.629 | REL=0.600 | CPU=1.7% | MEM=51.3% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N2@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine4-N3@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine1-N2@192.168.1.147
+   → machine1-N1@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N3@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N3@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.790)
+   🎯 LLM picked:   machine1-N3@192.168.1.147 (score=0.629)
+   ⚖️ Fairness: 0.900 (tasks=1)
+   🔄 LLM OVERRIDE (-0.161 score diff):
+🧠 LLM SELECTED: machine1-N3@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N3@192.168.1.147:8280
+🔗 Target: [http://192.168.1.147:8280/execute](http://192.168.1.147:8280/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773324988573_3', 'task_type': 'TIMESERIES', 'node': 'machine1-N3'}
+⏱️  Latency: 12.89 ms
+📊 Hybrid Score: 0.740
+---------------------------------
+=============================================================================================================
+🔄 CYCLE #9 | TRIAL 9 | 16:16:38
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 12 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.580 | REL=0.600 | CPU=17.6% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.594 | REL=0.600 | CPU=17.6% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.660 | REL=1.000 | CPU=17.6% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.790 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.5% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.5% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.5% | DISK=85.6% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.619 | REL=0.600 | CPU=1.9% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.644 | REL=0.600 | CPU=1.8% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.619 | REL=0.600 | CPU=1.9% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine4-N2@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine2-N3@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine1-N2@192.168.1.147
+   → machine1-N3@192.168.1.147
+   → machine1-N1@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N1@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N1@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.790)
+   🎯 LLM picked:   machine1-N1@192.168.1.147 (score=0.619)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   🔄 LLM OVERRIDE (-0.171 score diff):
+🧠 LLM SELECTED: machine1-N1@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N1@192.168.1.147:8080
+🔗 Target: [http://192.168.1.147:8080/execute](http://192.168.1.147:8080/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325015648_1', 'task_type': 'CLASSIFICATION', 'node': 'machine1-N1'}
+⏱️  Latency: 18.51 ms
+📊 Hybrid Score: 0.733
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #10 | TRIAL 10 | 16:17:05
+==============================================================================================================
+💻 Source CPU: 2.2%
+📡 12 nodes discovered:
+  machine3-N3@192.168.1.143   | SCORE=0.593 | REL=0.600 | CPU=19.3% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.656 | REL=1.000 | CPU=19.3% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.580 | REL=0.600 | CPU=19.3% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.790 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.632 | REL=0.600 | CPU=1.2% | MEM=51.3% | DISK=75.1% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.617 | REL=0.600 | CPU=1.2% | MEM=51.3% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.644 | REL=0.600 | CPU=1.2% | MEM=51.3% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N3@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine4-N3@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine2-N2@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine1-N1@192.168.1.147
+   → machine1-N2@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N3@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N3@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.790)
+   🎯 LLM picked:   machine3-N3@192.168.1.143 (score=0.593)
+   ⚖️ Fairness: 0.900 (tasks=1)
+   🔄 LLM OVERRIDE (-0.196 score diff):
+🧠 LLM SELECTED: machine3-N3@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N3@192.168.1.143:8880
+🔗 Target: [http://192.168.1.143:8880/execute](http://192.168.1.143:8880/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325040940_3', 'task_type': 'CV_INFERENCE', 'node': 'machine3-N3'}
+⏱️  Latency: 2.02 ms
+📊 Hybrid Score: 0.715
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #11 | TRIAL 11 | 16:17:32
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 12 nodes discovered:
+  machine3-N2@192.168.1.143   | SCORE=0.659 | REL=1.000 | CPU=19.0% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.580 | REL=0.600 | CPU=19.0% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.604 | REL=0.600 | CPU=19.0% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.690 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.790 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.619 | REL=0.600 | CPU=1.5% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.633 | REL=0.600 | CPU=1.6% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.644 | REL=0.600 | CPU=1.5% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N2@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine4-N2@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine2-N3@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine1-N2@192.168.1.147
+   → machine1-N1@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine4-N2@192.168.1.137'
+🧠 LLM MATCHED (direct): 'machine4-N2@192.168.1.137'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.790)
+   🎯 LLM picked:   machine4-N2@192.168.1.137 (score=0.690)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   🔄 LLM OVERRIDE (-0.100 score diff):
+🧠 LLM SELECTED: machine4-N2@192.168.1.137
+
+🏆 FINAL ASSIGNMENT: machine4-N2@192.168.1.137:9080
+🔗 Target: [http://192.168.1.137:9080/execute](http://192.168.1.137:9080/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325067857_2', 'task_type': 'TIMESERIES', 'node': 'machine4-N2'}
+⏱️  Latency: 64.48 ms
+📊 Hybrid Score: 0.783
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #12 | TRIAL 12 | 16:17:59
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 12 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.580 | REL=0.600 | CPU=17.6% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.605 | REL=0.600 | CPU=17.6% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.659 | REL=1.000 | CPU=17.6% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.703 | REL=0.600 | CPU=0.6% | MEM=22.6% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.700 | REL=0.600 | CPU=0.6% | MEM=22.6% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.786 | REL=1.000 | CPU=0.6% | MEM=22.6% | DISK=82.0% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.633 | REL=0.600 | CPU=1.2% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.619 | REL=0.600 | CPU=1.3% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.638 | REL=0.600 | CPU=1.3% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine4-N3@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine2-N2@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+   → machine1-N2@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine4-N1@192.168.1.137'
+🧠 LLM MATCHED (direct): 'machine4-N1@192.168.1.137'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.786)
+   🎯 LLM picked:   machine4-N1@192.168.1.137 (score=0.786)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   ✅ LLM agrees with score-based (highest score)
+🧠 LLM SELECTED: machine4-N1@192.168.1.137
+
+🏆 FINAL ASSIGNMENT: machine4-N1@192.168.1.137:8980
+🔗 Target: [http://192.168.1.137:8980/execute](http://192.168.1.137:8980/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325094885_1', 'task_type': 'CLASSIFICATION', 'node': 'machine4-N1'}
+⏱️  Latency: 307.43 ms
+📊 Hybrid Score: 0.850
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #13 | TRIAL 13 | 16:18:27
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 12 nodes discovered:
+  machine3-N3@192.168.1.143   | SCORE=0.605 | REL=0.600 | CPU=17.3% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.659 | REL=1.000 | CPU=17.3% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.579 | REL=0.600 | CPU=17.3% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.793 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.705 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.614 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.644 | REL=0.600 | CPU=1.2% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.619 | REL=0.600 | CPU=1.2% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.633 | REL=0.600 | CPU=1.3% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N3@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine1-N3@192.168.1.147
+   → machine1-N2@192.168.1.147
+   → machine1-N1@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N3@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N3@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.793)
+   🎯 LLM picked:   machine1-N3@192.168.1.147 (score=0.644)
+   ⚖️ Fairness: 0.800 (tasks=2)
+   🔄 LLM OVERRIDE (-0.149 score diff):
+🧠 LLM SELECTED: machine1-N3@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N3@192.168.1.147:8280
+🔗 Target: [http://192.168.1.147:8280/execute](http://192.168.1.147:8280/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325123618_3', 'task_type': 'CV_INFERENCE', 'node': 'machine1-N3'}
+⏱️  Latency: 21.71 ms
+📊 Hybrid Score: 0.751
+
+==============================================================================================================
+🔄 CYCLE #14 | TRIAL 14 | 16:18:53
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 12 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.579 | REL=0.600 | CPU=19.4% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.603 | REL=0.600 | CPU=19.4% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.658 | REL=1.000 | CPU=19.4% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.705 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.705 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.793 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.692 | REL=1.000 | CPU=3.7% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.612 | REL=0.600 | CPU=3.7% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.633 | REL=0.600 | CPU=3.7% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine4-N2@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine2-N2@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine1-N3@192.168.1.147
+   → machine1-N2@192.168.1.147
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N1@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N1@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.793)
+   🎯 LLM picked:   machine3-N1@192.168.1.143 (score=0.579)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   🔄 LLM OVERRIDE (-0.214 score diff):
+      → Fairness: fewer tasks (0 vs 1)
+🧠 LLM SELECTED: machine3-N1@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N1@192.168.1.143:8680
+🔗 Target: [http://192.168.1.143:8680/execute](http://192.168.1.143:8680/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325148901_1', 'task_type': 'TIMESERIES', 'node': 'machine3-N1'}
+⏱️  Latency: 2.39 ms
+📊 Hybrid Score: 0.705
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #15 | TRIAL 15 | 16:19:20
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 12 nodes discovered:
+  machine3-N3@192.168.1.143   | SCORE=0.605 | REL=0.600 | CPU=18.4% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.660 | REL=1.000 | CPU=18.4% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.594 | REL=0.600 | CPU=18.4% | MEM=74.1% | DISK=81.3% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.705 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.792 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.618 | REL=0.600 | CPU=1.0% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.693 | REL=1.000 | CPU=1.0% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.628 | REL=0.600 | CPU=1.0% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N3@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine4-N2@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine2-N2@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine1-N2@192.168.1.147
+   → machine1-N3@192.168.1.147
+   → machine1-N1@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N3@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N3@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.792)
+   🎯 LLM picked:   machine3-N3@192.168.1.143 (score=0.605)
+   ⚖️ Fairness: 0.800 (tasks=2)
+   🔄 LLM OVERRIDE (-0.188 score diff):
+🧠 LLM SELECTED: machine3-N3@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N3@192.168.1.143:8880
+🔗 Target: [http://192.168.1.143:8880/execute](http://192.168.1.143:8880/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325175788_3', 'task_type': 'CLASSIFICATION', 'node': 'machine3-N3'}
+⏱️  Latency: 2.14 ms
+📊 Hybrid Score: 0.723
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #16 | TRIAL 16 | 16:19:47
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 12 nodes discovered:
+  machine3-N2@192.168.1.143   | SCORE=0.659 | REL=1.000 | CPU=17.6% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.594 | REL=0.600 | CPU=17.6% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.653 | REL=1.000 | CPU=17.6% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.793 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.5% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.633 | REL=0.600 | CPU=1.3% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.693 | REL=1.000 | CPU=1.3% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.619 | REL=0.600 | CPU=1.3% | MEM=51.2% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N2@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine1-N1@192.168.1.147
+   → machine1-N3@192.168.1.147
+   → machine1-N2@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N2@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N2@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.793)
+   🎯 LLM picked:   machine1-N2@192.168.1.147 (score=0.619)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   🔄 LLM OVERRIDE (-0.173 score diff):
+      → Fairness: fewer tasks (0 vs 1)
+🧠 LLM SELECTED: machine1-N2@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N2@192.168.1.147:8180
+🔗 Target: [http://192.168.1.147:8180/execute](http://192.168.1.147:8180/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325204417_2', 'task_type': 'CV_INFERENCE', 'node': 'machine1-N2'}
+⏱️  Latency: 19.47 ms
+📊 Hybrid Score: 0.733
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #17 | TRIAL 17 | 16:20:14
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 12 nodes discovered:
+  machine3-N3@192.168.1.143   | SCORE=0.653 | REL=1.000 | CPU=17.6% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.595 | REL=0.600 | CPU=17.6% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.660 | REL=1.000 | CPU=17.6% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.703 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.792 | REL=1.000 | CPU=0.5% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.5% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.5% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.5% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.5% | DISK=85.6% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.636 | REL=0.600 | CPU=5.5% | MEM=48.0% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.637 | REL=0.600 | CPU=5.5% | MEM=48.0% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.697 | REL=1.000 | CPU=5.5% | MEM=48.0% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N3@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine4-N3@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine2-N3@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine1-N2@192.168.1.147
+   → machine1-N1@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N3@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N3@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.792)
+   🎯 LLM picked:   machine1-N3@192.168.1.147 (score=0.697)
+   ⚖️ Fairness: 0.700 (tasks=3)
+   🔄 LLM OVERRIDE (-0.095 score diff):
+🧠 LLM SELECTED: machine1-N3@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N3@192.168.1.147:8280
+🔗 Target: [http://192.168.1.147:8280/execute](http://192.168.1.147:8280/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325231168_3', 'task_type': 'TIMESERIES', 'node': 'machine1-N3'}
+⏱️  Latency: 20.79 ms
+📊 Hybrid Score: 0.788
+-------------------------
+==============================================================================================================
+🔄 CYCLE #18 | TRIAL 18 | 16:20:41
+==============================================================================================================
+💻 Source CPU: 1.9%
+📡 12 nodes discovered:
+  machine3-N3@192.168.1.143   | SCORE=0.646 | REL=1.000 | CPU=17.9% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.591 | REL=0.600 | CPU=17.9% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.651 | REL=1.000 | CPU=17.9% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.793 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.705 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.5% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.5% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.5% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.640 | REL=0.600 | CPU=2.8% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.637 | REL=0.600 | CPU=2.8% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.706 | REL=1.000 | CPU=2.8% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N3@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine1-N1@192.168.1.147
+   → machine1-N2@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N3@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N3@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.793)
+   🎯 LLM picked:   machine3-N3@192.168.1.143 (score=0.646)
+   ⚖️ Fairness: 0.700 (tasks=3)
+   🔄 LLM OVERRIDE (-0.147 score diff):
+🧠 LLM SELECTED: machine3-N3@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N3@192.168.1.143:8880
+🔗 Target: [http://192.168.1.143:8880/execute](http://192.168.1.143:8880/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325256867_3', 'task_type': 'CLASSIFICATION', 'node': 'machine3-N3'}
+⏱️  Latency: 2.16 ms
+📊 Hybrid Score: 0.752
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #19 | TRIAL 19 | 16:21:08
+==============================================================================================================
+💻 Source CPU: 1.6%
+📡 9 nodes discovered:
+  machine3-N3@192.168.1.143   | SCORE=0.658 | REL=1.000 | CPU=20.3% | MEM=74.4% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.593 | REL=0.600 | CPU=20.3% | MEM=74.4% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.658 | REL=1.000 | CPU=20.3% | MEM=74.4% | DISK=81.3% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.792 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+
+🟢 9 available NODES for LLM:
+   → machine3-N3@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine4-N2@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine2-N2@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine2-N1@192.168.1.108
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine4-N3@192.168.1.137'
+🧠 LLM MATCHED (direct): 'machine4-N3@192.168.1.137'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.792)
+   🎯 LLM picked:   machine4-N3@192.168.1.137 (score=0.704)
+   ⚖️ Fairness: 0.900 (tasks=1)
+   🔄 LLM OVERRIDE (-0.088 score diff):
+🧠 LLM SELECTED: machine4-N3@192.168.1.137
+
+🏆 FINAL ASSIGNMENT: machine4-N3@192.168.1.137:9180
+🔗 Target: [http://192.168.1.137:9180/execute](http://192.168.1.137:9180/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325282686_3', 'task_type': 'CV_INFERENCE', 'node': 'machine4-N3'}
+⏱️  Latency: 416.80 ms
+📊 Hybrid Score: 0.793
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #20 | TRIAL 20 | 16:21:34
+==============================================================================================================
+💻 Source CPU: 3.1%
+📡 12 nodes discovered:
+  machine3-N3@192.168.1.143   | SCORE=0.659 | REL=1.000 | CPU=16.5% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.659 | REL=1.000 | CPU=16.5% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.594 | REL=0.600 | CPU=16.5% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.714 | REL=0.600 | CPU=1.6% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.705 | REL=0.600 | CPU=1.6% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.793 | REL=1.000 | CPU=1.6% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.5% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.5% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.5% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.638 | REL=0.600 | CPU=1.0% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.706 | REL=1.000 | CPU=1.0% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.641 | REL=0.600 | CPU=1.0% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N3@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine4-N3@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine1-N2@192.168.1.147
+   → machine1-N3@192.168.1.147
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N1@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N1@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.793)
+   🎯 LLM picked:   machine1-N1@192.168.1.147 (score=0.641)
+   ⚖️ Fairness: 0.900 (tasks=1)
+   🔄 LLM OVERRIDE (-0.152 score diff):
+      → CPU=1.0% < 1.6%
+🧠 LLM SELECTED: machine1-N1@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N1@192.168.1.147:8080
+🔗 Target: [http://192.168.1.147:8080/execute](http://192.168.1.147:8080/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325311569_1', 'task_type': 'TIMESERIES', 'node': 'machine1-N1'}
+⏱️  Latency: 15.08 ms
+📊 Hybrid Score: 0.748
+------------------------------
+==============================================================================================================
+🔄 CYCLE #21 | TRIAL 21 | 16:22:01
+==============================================================================================================
+💻 Source CPU: 1.2%
+📡 12 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.591 | REL=0.600 | CPU=19.1% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.657 | REL=1.000 | CPU=19.1% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.658 | REL=1.000 | CPU=19.1% | MEM=74.0% | DISK=81.3% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.714 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.792 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.614 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.640 | REL=0.600 | CPU=1.5% | MEM=47.9% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.650 | REL=0.600 | CPU=1.5% | MEM=47.9% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.706 | REL=1.000 | CPU=1.5% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine4-N2@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine2-N3@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine1-N2@192.168.1.147
+   → machine1-N1@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N3@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N3@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.792)
+   🎯 LLM picked:   machine1-N3@192.168.1.147 (score=0.706)
+   ⚖️ Fairness: 0.600 (tasks=4)
+   🔄 LLM OVERRIDE (-0.086 score diff):
+🧠 LLM SELECTED: machine1-N3@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N3@192.168.1.147:8280
+🔗 Target: [http://192.168.1.147:8280/execute](http://192.168.1.147:8280/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325338854_3', 'task_type': 'CLASSIFICATION', 'node': 'machine1-N3'}
+⏱️  Latency: 30.35 ms
+📊 Hybrid Score: 0.794
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #22 | TRIAL 22 | 16:22:29
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 12 nodes discovered:
+  machine3-N2@192.168.1.143   | SCORE=0.660 | REL=1.000 | CPU=19.4% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.595 | REL=0.600 | CPU=19.4% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.660 | REL=1.000 | CPU=19.5% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.5% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.715 | REL=0.600 | CPU=0.5% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.792 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.4% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.610 | REL=0.600 | CPU=1.4% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.4% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.640 | REL=0.600 | CPU=1.6% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.651 | REL=0.600 | CPU=1.6% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.712 | REL=1.000 | CPU=1.6% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N2@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine4-N2@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine2-N2@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine1-N2@192.168.1.147
+   → machine1-N1@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N2@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N2@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.792)
+   🎯 LLM picked:   machine3-N2@192.168.1.143 (score=0.660)
+   ⚖️ Fairness: 0.600 (tasks=4)
+   🔄 LLM OVERRIDE (-0.133 score diff):
+🧠 LLM SELECTED: machine3-N2@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N2@192.168.1.143:8780
+🔗 Target: [http://192.168.1.143:8780/execute](http://192.168.1.143:8780/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325363895_2', 'task_type': 'CV_INFERENCE', 'node': 'machine3-N2'}
+⏱️  Latency: 2.04 ms
+📊 Hybrid Score: 0.762
+
+==============================================================================================================
+🔄 CYCLE #23 | TRIAL 23 | 16:22:55
+==============================================================================================================
+💻 Source CPU: 7.1%
+📡 12 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.593 | REL=0.600 | CPU=19.7% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.661 | REL=1.000 | CPU=19.7% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.653 | REL=1.000 | CPU=19.7% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.5% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.792 | REL=1.000 | CPU=0.5% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.715 | REL=0.600 | CPU=0.5% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.5% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.5% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.615 | REL=0.600 | CPU=1.5% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.641 | REL=0.600 | CPU=1.5% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.711 | REL=1.000 | CPU=1.5% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.651 | REL=0.600 | CPU=1.5% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine4-N2@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine2-N3@192.168.1.108
+   → machine1-N2@192.168.1.147
+   → machine1-N3@192.168.1.147
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N1@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N1@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.792)
+   🎯 LLM picked:   machine3-N1@192.168.1.143 (score=0.593)
+   ⚖️ Fairness: 0.900 (tasks=1)
+   🔄 LLM OVERRIDE (-0.199 score diff):
+🧠 LLM SELECTED: machine3-N1@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N1@192.168.1.143:8680
+🔗 Target: [http://192.168.1.143:8680/execute](http://192.168.1.143:8680/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325390898_1', 'task_type': 'TIMESERIES', 'node': 'machine3-N1'}
+⏱️  Latency: 2.23 ms
+📊 Hybrid Score: 0.715
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #24 | TRIAL 24 | 16:23:22
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 9 nodes discovered:
+  machine3-N2@192.168.1.143   | SCORE=0.665 | REL=1.000 | CPU=19.3% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.660 | REL=1.000 | CPU=19.3% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.605 | REL=0.600 | CPU=19.3% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.715 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.792 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.641 | REL=0.600 | CPU=1.3% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.712 | REL=1.000 | CPU=1.3% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.651 | REL=0.600 | CPU=1.3% | MEM=47.8% | DISK=75.1% | 🟢 FREE
+
+🟢 9 available NODES for LLM:
+   → machine3-N2@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine4-N3@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine1-N2@192.168.1.147
+   → machine1-N3@192.168.1.147
+   → machine1-N1@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N2@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N2@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.792)
+   🎯 LLM picked:   machine3-N2@192.168.1.143 (score=0.665)
+   ⚖️ Fairness: 0.500 (tasks=5)
+   🔄 LLM OVERRIDE (-0.127 score diff):
+🧠 LLM SELECTED: machine3-N2@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N2@192.168.1.143:8780
+🔗 Target: [http://192.168.1.143:8780/execute](http://192.168.1.143:8780/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325416548_2', 'task_type': 'CLASSIFICATION', 'node': 'machine3-N2'}
+⏱️  Latency: 2.03 ms
+📊 Hybrid Score: 0.766
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #25 | TRIAL 25 | 16:23:48
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 11 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.604 | REL=0.600 | CPU=16.4% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.663 | REL=1.000 | CPU=16.4% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine3-N3@192.168.1.143   | SCORE=0.656 | REL=1.000 | CPU=16.4% | MEM=73.9% | DISK=81.3% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.793 | REL=1.000 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.715 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.3% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.3% | MEM=58.7% | DISK=85.6% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.711 | REL=1.000 | CPU=1.3% | MEM=47.9% | DISK=75.1% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.648 | REL=0.600 | CPU=1.3% | MEM=47.9% | DISK=75.1% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.641 | REL=0.600 | CPU=1.4% | MEM=47.9% | DISK=75.1% | 🟢 FREE
+
+🟢 11 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine3-N3@192.168.1.143
+   → machine4-N2@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine4-N3@192.168.1.137
+   → machine2-N2@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine1-N3@192.168.1.147
+   → machine1-N1@192.168.1.147
+   → machine1-N2@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N1@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N1@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.793)
+   🎯 LLM picked:   machine1-N1@192.168.1.147 (score=0.648)
+   ⚖️ Fairness: 0.800 (tasks=2)
+   🔄 LLM OVERRIDE (-0.144 score diff):
+🧠 LLM SELECTED: machine1-N1@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N1@192.168.1.147:8080
+🔗 Target: [http://192.168.1.147:8080/execute](http://192.168.1.147:8080/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325444659_1', 'task_type': 'CV_INFERENCE', 'node': 'machine1-N1'}
+⏱️  Latency: 15.18 ms
+📊 Hybrid Score: 0.754
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #26 | TRIAL 26 | 16:24:14
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 12 nodes discovered:
+  machine3-N3@192.168.1.143   | SCORE=0.660 | REL=1.000 | CPU=17.5% | MEM=73.6% | DISK=81.3% | 🟢 FREE
+  machine3-N1@192.168.1.143   | SCORE=0.606 | REL=0.600 | CPU=17.5% | MEM=73.6% | DISK=81.3% | 🟢 FREE
+  machine3-N2@192.168.1.143   | SCORE=0.670 | REL=1.000 | CPU=17.5% | MEM=73.6% | DISK=81.3% | 🟢 FREE
+  machine4-N3@192.168.1.137   | SCORE=0.715 | REL=0.600 | CPU=0.4% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.793 | REL=1.000 | CPU=0.5% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine4-N2@192.168.1.137   | SCORE=0.704 | REL=0.600 | CPU=0.5% | MEM=22.5% | DISK=82.0% | 🟢 FREE
+  machine2-N3@192.168.1.108   | SCORE=0.614 | REL=0.600 | CPU=1.3% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.617 | REL=0.600 | CPU=1.3% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine2-N2@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=1.3% | MEM=58.6% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.695 | REL=1.000 | CPU=4.2% | MEM=48.2% | DISK=75.1% | 🟢 FREE
+  machine1-N2@192.168.1.147   | SCORE=0.637 | REL=0.600 | CPU=4.2% | MEM=48.2% | DISK=75.1% | 🟢 FREE
+  machine1-N3@192.168.1.147   | SCORE=0.711 | REL=1.000 | CPU=4.2% | MEM=48.2% | DISK=75.1% | 🟢 FREE
+
+🟢 12 available NODES for LLM:
+   → machine3-N3@192.168.1.143
+   → machine3-N1@192.168.1.143
+   → machine3-N2@192.168.1.143
+   → machine4-N3@192.168.1.137
+   → machine4-N1@192.168.1.137
+   → machine4-N2@192.168.1.137
+   → machine2-N3@192.168.1.108
+   → machine2-N1@192.168.1.108
+   → machine2-N2@192.168.1.108
+   → machine1-N1@192.168.1.147
+   → machine1-N2@192.168.1.147
+   → machine1-N3@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine4-N3@192.168.1.137'
+🧠 LLM MATCHED (direct): 'machine4-N3@192.168.1.137'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.793)
+   🎯 LLM picked:   machine4-N3@192.168.1.137 (score=0.715)
+   ⚖️ Fairness: 0.800 (tasks=2)
+   🔄 LLM OVERRIDE (-0.078 score diff):
+      → CPU=0.4% < 0.5%
+🧠 LLM SELECTED: machine4-N3@192.168.1.137
+
+🏆 FINAL ASSIGNMENT: machine4-N3@192.168.1.137:9180
+🔗 Target: [http://192.168.1.137:9180/execute](http://192.168.1.137:9180/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325470190_3', 'task_type': 'TIMESERIES', 'node': 'machine4-N3'}
+⏱️  Latency: 83.82 ms
+📊 Hybrid Score: 0.800
+------------------------------------------------------
+
+
+Physical machine, no logical nodes
+==============================================================================================================
+🔄 CYCLE #1 | TRIAL 1 | 16:27:16
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.585 | REL=0.600 | CPU=0.0% | MEM=69.1% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.699 | REL=0.600 | CPU=0.0% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.631 | REL=0.600 | CPU=0.0% | MEM=50.5% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.616 | REL=0.600 | CPU=0.0% | MEM=51.4% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N1@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N1@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.699)
+   🎯 LLM picked:   machine1-N1@192.168.1.147 (score=0.616)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   🔄 LLM OVERRIDE (-0.083 score diff):
+🧠 LLM SELECTED: machine1-N1@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N1@192.168.1.147:8080
+🔗 Target: [http://192.168.1.147:8080/execute](http://192.168.1.147:8080/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325650664_1', 'task_type': 'CV_INFERENCE', 'node': 'machine1-N1'}
+⏱️  Latency: 19.21 ms
+📊 Hybrid Score: 0.731
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #2 | TRIAL 2 | 16:27:40
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.589 | REL=0.600 | CPU=13.4% | MEM=69.2% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.699 | REL=0.600 | CPU=0.3% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.631 | REL=0.600 | CPU=1.5% | MEM=50.6% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.631 | REL=0.600 | CPU=4.4% | MEM=52.1% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine4-N1@192.168.1.137'
+🧠 LLM MATCHED (direct): 'machine4-N1@192.168.1.137'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.699)
+   🎯 LLM picked:   machine4-N1@192.168.1.137 (score=0.699)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   ✅ LLM agrees with score-based (highest score)
+🧠 LLM SELECTED: machine4-N1@192.168.1.137
+
+🏆 FINAL ASSIGNMENT: machine4-N1@192.168.1.137:8980
+🔗 Target: [http://192.168.1.137:8980/execute](http://192.168.1.137:8980/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325673342_1', 'task_type': 'TIMESERIES', 'node': 'machine4-N1'}
+⏱️  Latency: 351.76 ms
+📊 Hybrid Score: 0.790
+-------------------------------------------
+==============================================================================================================
+🔄 CYCLE #3 | TRIAL 3 | 16:28:05
+==============================================================================================================
+💻 Source CPU: 1.6%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.586 | REL=0.600 | CPU=14.2% | MEM=69.3% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.714 | REL=0.600 | CPU=0.4% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.633 | REL=0.600 | CPU=1.2% | MEM=50.5% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.632 | REL=0.600 | CPU=1.0% | MEM=52.0% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N1@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N1@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.714)
+   🎯 LLM picked:   machine3-N1@192.168.1.143 (score=0.586)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   🔄 LLM OVERRIDE (-0.128 score diff):
+      → Fairness: fewer tasks (0 vs 1)
+🧠 LLM SELECTED: machine3-N1@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N1@192.168.1.143:8680
+🔗 Target: [http://192.168.1.143:8680/execute](http://192.168.1.143:8680/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325697382_1', 'task_type': 'CLASSIFICATION', 'node': 'machine3-N1'}
+⏱️  Latency: 2.87 ms
+📊 Hybrid Score: 0.710
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #4 | TRIAL 4 | 16:28:29
+==============================================================================================================
+💻 Source CPU: 4.4%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.603 | REL=0.600 | CPU=14.5% | MEM=69.3% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.713 | REL=0.600 | CPU=0.2% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.631 | REL=0.600 | CPU=1.3% | MEM=50.5% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.632 | REL=0.600 | CPU=1.1% | MEM=51.7% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N1@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N1@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.713)
+   🎯 LLM picked:   machine3-N1@192.168.1.143 (score=0.603)
+   ⚖️ Fairness: 0.900 (tasks=1)
+   🔄 LLM OVERRIDE (-0.110 score diff):
+🧠 LLM SELECTED: machine3-N1@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N1@192.168.1.143:8680
+🔗 Target: [http://192.168.1.143:8680/execute](http://192.168.1.143:8680/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325721350_1', 'task_type': 'CV_INFERENCE', 'node': 'machine3-N1'}
+⏱️  Latency: 2.00 ms
+📊 Hybrid Score: 0.722
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #5 | TRIAL 5 | 16:28:53
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.614 | REL=0.600 | CPU=14.9% | MEM=69.3% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.713 | REL=0.600 | CPU=0.3% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.633 | REL=0.600 | CPU=1.2% | MEM=50.5% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.632 | REL=0.600 | CPU=0.7% | MEM=51.7% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N1@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N1@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.713)
+   🎯 LLM picked:   machine1-N1@192.168.1.147 (score=0.632)
+   ⚖️ Fairness: 0.900 (tasks=1)
+   🔄 LLM OVERRIDE (-0.080 score diff):
+🧠 LLM SELECTED: machine1-N1@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N1@192.168.1.147:8080
+🔗 Target: [http://192.168.1.147:8080/execute](http://192.168.1.147:8080/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325747237_1', 'task_type': 'TIMESERIES', 'node': 'machine1-N1'}
+⏱️  Latency: 19.30 ms
+📊 Hybrid Score: 0.743
+
+==============================================================================================================
+🔄 CYCLE #6 | TRIAL 6 | 16:29:17
+==============================================================================================================
+💻 Source CPU: 2.2%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.612 | REL=0.600 | CPU=14.4% | MEM=69.3% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.713 | REL=0.600 | CPU=0.3% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.633 | REL=0.600 | CPU=1.2% | MEM=50.5% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.644 | REL=0.600 | CPU=2.6% | MEM=51.5% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine4-N1@192.168.1.137'
+🧠 LLM MATCHED (direct): 'machine4-N1@192.168.1.137'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.713)
+   🎯 LLM picked:   machine4-N1@192.168.1.137 (score=0.713)
+   ⚖️ Fairness: 0.900 (tasks=1)
+   ✅ LLM agrees with score-based (highest score)
+🧠 LLM SELECTED: machine4-N1@192.168.1.137
+
+🏆 FINAL ASSIGNMENT: machine4-N1@192.168.1.137:8980
+🔗 Target: [http://192.168.1.137:8980/execute](http://192.168.1.137:8980/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325769699_1', 'task_type': 'CLASSIFICATION', 'node': 'machine4-N1'}
+⏱️  Latency: 335.15 ms
+📊 Hybrid Score: 0.799
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #7 | TRIAL 7 | 16:29:41
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.615 | REL=0.600 | CPU=14.3% | MEM=69.3% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.724 | REL=0.600 | CPU=0.3% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.633 | REL=0.600 | CPU=1.4% | MEM=50.4% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.643 | REL=0.600 | CPU=0.8% | MEM=51.5% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N1@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N1@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.724)
+   🎯 LLM picked:   machine3-N1@192.168.1.143 (score=0.615)
+   ⚖️ Fairness: 0.800 (tasks=2)
+   🔄 LLM OVERRIDE (-0.110 score diff):
+🧠 LLM SELECTED: machine3-N1@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N1@192.168.1.143:8680
+🔗 Target: [http://192.168.1.143:8680/execute](http://192.168.1.143:8680/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325793725_1', 'task_type': 'CV_INFERENCE', 'node': 'machine3-N1'}
+⏱️  Latency: 1.92 ms
+📊 Hybrid Score: 0.730
+==============================================================================================================
+🔄 CYCLE #8 | TRIAL 8 | 16:30:05
+==============================================================================================================
+💻 Source CPU: 1.6%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.661 | REL=1.000 | CPU=15.4% | MEM=69.3% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.724 | REL=0.600 | CPU=0.2% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.633 | REL=0.600 | CPU=1.3% | MEM=50.5% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.643 | REL=0.600 | CPU=0.8% | MEM=51.7% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine4-N1@192.168.1.137'
+🧠 LLM MATCHED (direct): 'machine4-N1@192.168.1.137'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.724)
+   🎯 LLM picked:   machine4-N1@192.168.1.137 (score=0.724)
+   ⚖️ Fairness: 0.800 (tasks=2)
+   ✅ LLM agrees with score-based (highest score)
+🧠 LLM SELECTED: machine4-N1@192.168.1.137
+
+🏆 FINAL ASSIGNMENT: machine4-N1@192.168.1.137:8980
+🔗 Target: [http://192.168.1.137:8980/execute](http://192.168.1.137:8980/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325817793_1', 'task_type': 'TIMESERIES', 'node': 'machine4-N1'}
+⏱️  Latency: 11.12 ms
+📊 Hybrid Score: 0.807
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #9 | TRIAL 9 | 16:30:29
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.663 | REL=1.000 | CPU=14.6% | MEM=69.2% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.773 | REL=1.000 | CPU=0.4% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.616 | REL=0.600 | CPU=3.0% | MEM=50.6% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.643 | REL=0.600 | CPU=0.9% | MEM=51.6% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N1@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N1@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.773)
+   🎯 LLM picked:   machine3-N1@192.168.1.143 (score=0.663)
+   ⚖️ Fairness: 0.700 (tasks=3)
+   🔄 LLM OVERRIDE (-0.110 score diff):
+🧠 LLM SELECTED: machine3-N1@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N1@192.168.1.143:8680
+🔗 Target: [http://192.168.1.143:8680/execute](http://192.168.1.143:8680/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325841634_1', 'task_type': 'CLASSIFICATION', 'node': 'machine3-N1'}
+⏱️  Latency: 2.02 ms
+📊 Hybrid Score: 0.764
+==============================================================================================================
+🔄 CYCLE #10 | TRIAL 10 | 16:30:53
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 3 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.668 | REL=1.000 | CPU=14.4% | MEM=69.3% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.771 | REL=1.000 | CPU=0.3% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.631 | REL=0.600 | CPU=1.2% | MEM=50.5% | DISK=85.6% | 🟢 FREE
+
+🟢 3 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine4-N1@192.168.1.137'
+🧠 LLM MATCHED (direct): 'machine4-N1@192.168.1.137'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.771)
+   🎯 LLM picked:   machine4-N1@192.168.1.137 (score=0.771)
+   ⚖️ Fairness: 0.700 (tasks=3)
+   ✅ LLM agrees with score-based (highest score)
+🧠 LLM SELECTED: machine4-N1@192.168.1.137
+
+🏆 FINAL ASSIGNMENT: machine4-N1@192.168.1.137:8980
+🔗 Target: [http://192.168.1.137:8980/execute](http://192.168.1.137:8980/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325864942_1', 'task_type': 'CV_INFERENCE', 'node': 'machine4-N1'}
+⏱️  Latency: 22.18 ms
+📊 Hybrid Score: 0.840
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #11 | TRIAL 11 | 16:31:16
+==============================================================================================================
+💻 Source CPU: 0.3%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.669 | REL=1.000 | CPU=13.7% | MEM=69.2% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.779 | REL=1.000 | CPU=1.4% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.633 | REL=0.600 | CPU=1.3% | MEM=50.6% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.643 | REL=0.600 | CPU=0.7% | MEM=51.5% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N1@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N1@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.779)
+   🎯 LLM picked:   machine3-N1@192.168.1.143 (score=0.669)
+   ⚖️ Fairness: 0.600 (tasks=4)
+   🔄 LLM OVERRIDE (-0.110 score diff):
+🧠 LLM SELECTED: machine3-N1@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N1@192.168.1.143:8680
+🔗 Target: [http://192.168.1.143:8680/execute](http://192.168.1.143:8680/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325889062_1', 'task_type': 'TIMESERIES', 'node': 'machine3-N1'}
+⏱️  Latency: 2.07 ms
+📊 Hybrid Score: 0.768
+
+==============================================================================================================
+🔄 CYCLE #12 | TRIAL 12 | 16:31:41
+==============================================================================================================
+💻 Source CPU: 1.2%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.672 | REL=1.000 | CPU=14.5% | MEM=69.3% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.779 | REL=1.000 | CPU=0.2% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.633 | REL=0.600 | CPU=1.3% | MEM=50.5% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.641 | REL=0.600 | CPU=1.0% | MEM=51.6% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N1@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N1@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.779)
+   🎯 LLM picked:   machine3-N1@192.168.1.143 (score=0.672)
+   ⚖️ Fairness: 0.500 (tasks=5)
+   🔄 LLM OVERRIDE (-0.108 score diff):
+🧠 LLM SELECTED: machine3-N1@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N1@192.168.1.143:8680
+🔗 Target: [http://192.168.1.143:8680/execute](http://192.168.1.143:8680/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325912953_1', 'task_type': 'CLASSIFICATION', 'node': 'machine3-N1'}
+⏱️  Latency: 2.14 ms
+📊 Hybrid Score: 0.770
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #13 | TRIAL 13 | 16:32:04
+==============================================================================================================
+💻 Source CPU: 3.8%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.679 | REL=1.000 | CPU=14.5% | MEM=69.7% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.779 | REL=1.000 | CPU=0.3% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.632 | REL=0.600 | CPU=1.2% | MEM=50.5% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.642 | REL=0.600 | CPU=0.6% | MEM=51.6% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N1@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N1@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.779)
+   🎯 LLM picked:   machine3-N1@192.168.1.143 (score=0.679)
+   ⚖️ Fairness: 0.400 (tasks=6)
+   🔄 LLM OVERRIDE (-0.100 score diff):
+🧠 LLM SELECTED: machine3-N1@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N1@192.168.1.143:8680
+🔗 Target: [http://192.168.1.143:8680/execute](http://192.168.1.143:8680/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325936768_1', 'task_type': 'CV_INFERENCE', 'node': 'machine3-N1'}
+⏱️  Latency: 1.82 ms
+📊 Hybrid Score: 0.775
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #14 | TRIAL 14 | 16:32:28
+==============================================================================================================
+💻 Source CPU: 1.6%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.679 | REL=1.000 | CPU=14.9% | MEM=69.7% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.779 | REL=1.000 | CPU=0.2% | MEM=18.4% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.632 | REL=0.600 | CPU=1.3% | MEM=50.4% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.641 | REL=0.600 | CPU=1.1% | MEM=51.6% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine2-N1@192.168.1.108'
+🧠 LLM MATCHED (direct): 'machine2-N1@192.168.1.108'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.779)
+   🎯 LLM picked:   machine2-N1@192.168.1.108 (score=0.632)
+   ⚖️ Fairness: 1.000 (tasks=0)
+   🔄 LLM OVERRIDE (-0.147 score diff):
+      → Fairness: fewer tasks (0 vs 4)
+🧠 LLM SELECTED: machine2-N1@192.168.1.108
+
+🏆 FINAL ASSIGNMENT: machine2-N1@192.168.1.108:8380
+🔗 Target: [http://192.168.1.108:8380/execute](http://192.168.1.108:8380/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325961158_1', 'task_type': 'TIMESERIES', 'node': 'machine2-N1'}
+⏱️  Latency: 340.49 ms
+📊 Hybrid Score: 0.742
+==============================================================================================================
+🔄 CYCLE #15 | TRIAL 15 | 16:32:53
+==============================================================================================================
+💻 Source CPU: 9.7%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.665 | REL=1.000 | CPU=15.0% | MEM=69.6% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.778 | REL=1.000 | CPU=0.3% | MEM=18.9% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.646 | REL=0.600 | CPU=1.6% | MEM=50.7% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.642 | REL=0.600 | CPU=0.8% | MEM=51.6% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N1@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N1@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.778)
+   🎯 LLM picked:   machine3-N1@192.168.1.143 (score=0.665)
+   ⚖️ Fairness: 0.300 (tasks=7)
+   🔄 LLM OVERRIDE (-0.113 score diff):
+🧠 LLM SELECTED: machine3-N1@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N1@192.168.1.143:8680
+🔗 Target: [http://192.168.1.143:8680/execute](http://192.168.1.143:8680/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773325985077_1', 'task_type': 'CLASSIFICATION', 'node': 'machine3-N1'}
+⏱️  Latency: 2.15 ms
+📊 Hybrid Score: 0.765
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #16 | TRIAL 16 | 16:33:17
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.685 | REL=1.000 | CPU=13.9% | MEM=69.6% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.779 | REL=1.000 | CPU=0.2% | MEM=18.8% | DISK=82.0% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.644 | REL=0.600 | CPU=0.7% | MEM=51.5% | DISK=75.1% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.647 | REL=0.600 | CPU=1.2% | MEM=50.6% | DISK=85.6% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine1-N1@192.168.1.147
+   → machine2-N1@192.168.1.108
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine2-N1@192.168.1.108'
+🧠 LLM MATCHED (direct): 'machine2-N1@192.168.1.108'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.779)
+   🎯 LLM picked:   machine2-N1@192.168.1.108 (score=0.647)
+   ⚖️ Fairness: 0.900 (tasks=1)
+   🔄 LLM OVERRIDE (-0.131 score diff):
+      → Fairness: fewer tasks (1 vs 4)
+🧠 LLM SELECTED: machine2-N1@192.168.1.108
+
+🏆 FINAL ASSIGNMENT: machine2-N1@192.168.1.108:8380
+🔗 Target: [http://192.168.1.108:8380/execute](http://192.168.1.108:8380/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773326008894_1', 'task_type': 'CV_INFERENCE', 'node': 'machine2-N1'}
+⏱️  Latency: 74.87 ms
+📊 Hybrid Score: 0.753
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #17 | TRIAL 17 | 16:33:40
+==============================================================================================================
+💻 Source CPU: 8.4%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.683 | REL=1.000 | CPU=13.6% | MEM=69.7% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.778 | REL=1.000 | CPU=0.2% | MEM=18.8% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.658 | REL=0.600 | CPU=2.5% | MEM=50.7% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.642 | REL=0.600 | CPU=0.8% | MEM=51.5% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine2-N1@192.168.1.108'
+🧠 LLM MATCHED (direct): 'machine2-N1@192.168.1.108'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.778)
+   🎯 LLM picked:   machine2-N1@192.168.1.108 (score=0.658)
+   ⚖️ Fairness: 0.800 (tasks=2)
+   🔄 LLM OVERRIDE (-0.120 score diff):
+      → Fairness: fewer tasks (2 vs 4)
+🧠 LLM SELECTED: machine2-N1@192.168.1.108
+
+🏆 FINAL ASSIGNMENT: machine2-N1@192.168.1.108:8380
+🔗 Target: [http://192.168.1.108:8380/execute](http://192.168.1.108:8380/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773326033248_1', 'task_type': 'TIMESERIES', 'node': 'machine2-N1'}
+⏱️  Latency: 356.45 ms
+📊 Hybrid Score: 0.761
+-------------------------------
+==============================================================================================================
+🔄 CYCLE #18 | TRIAL 18 | 16:34:05
+==============================================================================================================
+💻 Source CPU: 3.7%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.684 | REL=1.000 | CPU=15.0% | MEM=69.7% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.778 | REL=1.000 | CPU=0.3% | MEM=18.8% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.707 | REL=1.000 | CPU=1.6% | MEM=50.7% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.644 | REL=0.600 | CPU=0.8% | MEM=51.5% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N1@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N1@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.778)
+   🎯 LLM picked:   machine1-N1@192.168.1.147 (score=0.644)
+   ⚖️ Fairness: 0.800 (tasks=2)
+   🔄 LLM OVERRIDE (-0.135 score diff):
+      → Fairness: fewer tasks (2 vs 4)
+🧠 LLM SELECTED: machine1-N1@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N1@192.168.1.147:8080
+🔗 Target: [http://192.168.1.147:8080/execute](http://192.168.1.147:8080/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773326058905_1', 'task_type': 'CLASSIFICATION', 'node': 'machine1-N1'}
+⏱️  Latency: 73.66 ms
+📊 Hybrid Score: 0.751
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #19 | TRIAL 19 | 16:34:29
+==============================================================================================================
+💻 Source CPU: 1.6%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.684 | REL=1.000 | CPU=13.7% | MEM=69.7% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.778 | REL=1.000 | CPU=0.2% | MEM=18.8% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.706 | REL=1.000 | CPU=1.3% | MEM=50.6% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.690 | REL=1.000 | CPU=0.9% | MEM=51.5% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N1@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N1@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.778)
+   🎯 LLM picked:   machine1-N1@192.168.1.147 (score=0.690)
+   ⚖️ Fairness: 0.700 (tasks=3)
+   🔄 LLM OVERRIDE (-0.088 score diff):
+      → Fairness: fewer tasks (3 vs 4)
+🧠 LLM SELECTED: machine1-N1@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N1@192.168.1.147:8080
+🔗 Target: [http://192.168.1.147:8080/execute](http://192.168.1.147:8080/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773326082768_1', 'task_type': 'CV_INFERENCE', 'node': 'machine1-N1'}
+⏱️  Latency: 19.31 ms
+📊 Hybrid Score: 0.783
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #20 | TRIAL 20 | 16:34:53
+==============================================================================================================
+💻 Source CPU: 0.9%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.686 | REL=1.000 | CPU=13.3% | MEM=69.7% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.778 | REL=1.000 | CPU=0.3% | MEM=18.8% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.706 | REL=1.000 | CPU=1.2% | MEM=50.6% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.699 | REL=1.000 | CPU=4.0% | MEM=50.8% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N1@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N1@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.778)
+   🎯 LLM picked:   machine1-N1@192.168.1.147 (score=0.699)
+   ⚖️ Fairness: 0.600 (tasks=4)
+   🔄 LLM OVERRIDE (-0.080 score diff):
+🧠 LLM SELECTED: machine1-N1@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N1@192.168.1.147:8080
+🔗 Target: [http://192.168.1.147:8080/execute](http://192.168.1.147:8080/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773326107011_1', 'task_type': 'TIMESERIES', 'node': 'machine1-N1'}
+⏱️  Latency: 13.64 ms
+📊 Hybrid Score: 0.789
+--------------------------------------------
+=============================================================================================================
+🔄 CYCLE #21 | TRIAL 21 | 16:35:17
+==============================================================================================================
+💻 Source CPU: 1.6%
+📡 3 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.685 | REL=1.000 | CPU=15.7% | MEM=69.8% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.778 | REL=1.000 | CPU=0.2% | MEM=18.8% | DISK=82.0% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.704 | REL=1.000 | CPU=1.8% | MEM=51.4% | DISK=75.1% | 🟢 FREE
+
+🟢 3 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine1-N1@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N1@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N1@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.778)
+   🎯 LLM picked:   machine3-N1@192.168.1.143 (score=0.685)
+   ⚖️ Fairness: 0.200 (tasks=8)
+   🔄 LLM OVERRIDE (-0.094 score diff):
+🧠 LLM SELECTED: machine3-N1@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N1@192.168.1.143:8680
+🔗 Target: [http://192.168.1.143:8680/execute](http://192.168.1.143:8680/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773326128836_1', 'task_type': 'CLASSIFICATION', 'node': 'machine3-N1'}
+⏱️  Latency: 2.24 ms
+📊 Hybrid Score: 0.779
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #22 | TRIAL 22 | 16:35:40
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.689 | REL=1.000 | CPU=12.9% | MEM=69.7% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.778 | REL=1.000 | CPU=0.3% | MEM=18.8% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.706 | REL=1.000 | CPU=1.3% | MEM=50.7% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.706 | REL=1.000 | CPU=1.0% | MEM=50.8% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine4-N1@192.168.1.137'
+🧠 LLM MATCHED (direct): 'machine4-N1@192.168.1.137'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.778)
+   🎯 LLM picked:   machine4-N1@192.168.1.137 (score=0.778)
+   ⚖️ Fairness: 0.600 (tasks=4)
+   ✅ LLM agrees with score-based (highest score)
+🧠 LLM SELECTED: machine4-N1@192.168.1.137
+
+🏆 FINAL ASSIGNMENT: machine4-N1@192.168.1.137:8980
+🔗 Target: [http://192.168.1.137:8980/execute](http://192.168.1.137:8980/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773326152814_1', 'task_type': 'CV_INFERENCE', 'node': 'machine4-N1'}
+⏱️  Latency: 311.39 ms
+📊 Hybrid Score: 0.845
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #23 | TRIAL 23 | 16:36:04
+==============================================================================================================
+💻 Source CPU: 1.9%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.685 | REL=1.000 | CPU=13.4% | MEM=69.7% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.782 | REL=1.000 | CPU=1.5% | MEM=18.9% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.706 | REL=1.000 | CPU=1.2% | MEM=50.6% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.706 | REL=1.000 | CPU=0.8% | MEM=50.7% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N1@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N1@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.782)
+   🎯 LLM picked:   machine1-N1@192.168.1.147 (score=0.706)
+   ⚖️ Fairness: 0.500 (tasks=5)
+   🔄 LLM OVERRIDE (-0.076 score diff):
+      → CPU=0.8% < 1.5%
+🧠 LLM SELECTED: machine1-N1@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N1@192.168.1.147:8080
+🔗 Target: [http://192.168.1.147:8080/execute](http://192.168.1.147:8080/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773326178682_1', 'task_type': 'TIMESERIES', 'node': 'machine1-N1'}
+⏱️  Latency: 30.81 ms
+📊 Hybrid Score: 0.794
+==============================================================================================================
+🔄 CYCLE #24 | TRIAL 24 | 16:36:29
+==============================================================================================================
+💻 Source CPU: 1.6%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.688 | REL=1.000 | CPU=14.7% | MEM=69.7% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.783 | REL=1.000 | CPU=0.2% | MEM=18.8% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.706 | REL=1.000 | CPU=1.2% | MEM=50.7% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.700 | REL=1.000 | CPU=1.9% | MEM=51.4% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CLASSIFICATION {'n_samples': 150}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine4-N1@192.168.1.137'
+🧠 LLM MATCHED (direct): 'machine4-N1@192.168.1.137'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.783)
+   🎯 LLM picked:   machine4-N1@192.168.1.137 (score=0.783)
+   ⚖️ Fairness: 0.500 (tasks=5)
+   ✅ LLM agrees with score-based (highest score)
+🧠 LLM SELECTED: machine4-N1@192.168.1.137
+
+🏆 FINAL ASSIGNMENT: machine4-N1@192.168.1.137:8980
+🔗 Target: [http://192.168.1.137:8980/execute](http://192.168.1.137:8980/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773326201167_1', 'task_type': 'CLASSIFICATION', 'node': 'machine4-N1'}
+⏱️  Latency: 300.06 ms
+📊 Hybrid Score: 0.848
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+🔄 CYCLE #25 | TRIAL 25 | 16:36:53
+==============================================================================================================
+💻 Source CPU: 1.3%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.687 | REL=1.000 | CPU=14.0% | MEM=69.7% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.788 | REL=1.000 | CPU=0.3% | MEM=18.9% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.706 | REL=1.000 | CPU=1.4% | MEM=50.8% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.712 | REL=1.000 | CPU=1.4% | MEM=50.0% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: CV_INFERENCE {'n_images': 50}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine3-N1@192.168.1.143'
+🧠 LLM MATCHED (direct): 'machine3-N1@192.168.1.143'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.788)
+   🎯 LLM picked:   machine3-N1@192.168.1.143 (score=0.687)
+   ⚖️ Fairness: 0.100 (tasks=9)
+   🔄 LLM OVERRIDE (-0.100 score diff):
+🧠 LLM SELECTED: machine3-N1@192.168.1.143
+
+🏆 FINAL ASSIGNMENT: machine3-N1@192.168.1.143:8680
+🔗 Target: [http://192.168.1.143:8680/execute](http://192.168.1.143:8680/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773326225139_1', 'task_type': 'CV_INFERENCE', 'node': 'machine3-N1'}
+⏱️  Latency: 1.77 ms
+📊 Hybrid Score: 0.781
+==============================================================================================================
+🔄 CYCLE #26 | TRIAL 26 | 16:37:17
+==============================================================================================================
+💻 Source CPU: 0.6%
+📡 4 nodes discovered:
+  machine3-N1@192.168.1.143   | SCORE=0.689 | REL=1.000 | CPU=15.6% | MEM=69.8% | DISK=81.3% | 🟢 FREE
+  machine4-N1@192.168.1.137   | SCORE=0.788 | REL=1.000 | CPU=0.2% | MEM=18.8% | DISK=82.0% | 🟢 FREE
+  machine2-N1@192.168.1.108   | SCORE=0.703 | REL=1.000 | CPU=1.4% | MEM=50.8% | DISK=85.6% | 🟢 FREE
+  machine1-N1@192.168.1.147   | SCORE=0.712 | REL=1.000 | CPU=0.9% | MEM=50.0% | DISK=75.1% | 🟢 FREE
+
+🟢 4 available NODES for LLM:
+   → machine3-N1@192.168.1.143
+   → machine4-N1@192.168.1.137
+   → machine2-N1@192.168.1.108
+   → machine1-N1@192.168.1.147
+🎯 TASK: TIMESERIES {'n_steps': 1000}
+🤖 LLM reasoning...
+🤖 LLM RAW: 'SELECTED_NODE: machine1-N1@192.168.1.147'
+🧠 LLM MATCHED (direct): 'machine1-N1@192.168.1.147'
+
+🧠🤔 LLM DECISION ANALYSIS:
+   📊 Highest score: machine4-N1@192.168.1.137 (score=0.788)
+   🎯 LLM picked:   machine1-N1@192.168.1.147 (score=0.712)
+   ⚖️ Fairness: 0.400 (tasks=6)
+   🔄 LLM OVERRIDE (-0.076 score diff):
+🧠 LLM SELECTED: machine1-N1@192.168.1.147
+
+🏆 FINAL ASSIGNMENT: machine1-N1@192.168.1.147:8080
+🔗 Target: [http://192.168.1.147:8080/execute](http://192.168.1.147:8080/execute)
+✅ SUCCESS: {'status': 'ACCEPTED', 'task_id': 'task_1773326251153_1', 'task_type': 'TIMESERIES', 'node': 'machine1-N1'}
+⏱️  Latency: 21.34 ms
+📊 Hybrid Score: 0.798
+--------------------------------------------------------------------------------------------------------------
+
