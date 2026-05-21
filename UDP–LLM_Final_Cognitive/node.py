@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-FINAL node.py - LSTM Composite Scoring (Your EXACT formulas)
-NO asyncio - pure threading only
-"""
+
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 import psutil, socket, threading, time, sys, os, json, numpy as np
@@ -114,7 +111,7 @@ def process_timeseries(task_id, task_info):
         if not task_queue: is_busy = False
     print(f"✅ N{logical_id} TIMESERIES DONE: {duration:.1f}s")
 
-# ========================= YOUR EXACT SCORING FORMULAS =========================
+# ========================= EXACT SCORING FORMULAS =========================
 def get_availability_status(): 
     return {'pending_tasks': len(task_queue), 'is_busy': is_busy, 'completed_tasks': len(local_task_cache)}
 
