@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-agent_node1.py -- fully decentralized autonomous edge AI agent
+agent_node_1.py -- fully decentralized autonomous edge AI agent
 
 Each node independently:
   1. Monitors own resources (psutil)
@@ -10,7 +10,7 @@ Each node independently:
   5. Participates in A2A negotiation via ZMQ
   6. Responds to heartbeat PINGs for fault detection
 
-Usage:  python agent_node1.py 1   |   python agent_node1.py 2
+Usage:  python agent_node_1.py 1   |   python agent_node_1.py 2
 """
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
